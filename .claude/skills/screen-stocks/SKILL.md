@@ -47,6 +47,7 @@ python3 /Users/kikuchihiroyuki/stock-skills/.claude/skills/screen-stocks/scripts
 | 「超割安」「ディープバリュー」 | deep-value |
 | 「クオリティ」「高品質」 | quality |
 | 「シャープレシオ」「SR」 | sharpe-ratio |
+| 「押し目」「pullback」 | pullback |
 
 ### sector（--sector オプション）
 指定なしの場合は全セクターが対象。ユーザーが特定セクターに言及した場合に使用する。
@@ -100,6 +101,7 @@ sharpe-ratio プリセットが指定された場合は自動的に legacy モ�
 - `deep-value` : ディープバリュー（非常に低いPER/PBR）
 - `quality` : クオリティバリュー（高ROE＋割安）
 - `sharpe-ratio` : シャープレシオ最適化（5条件フレームワーク。legacy モード専用。実行に時間がかかります）
+- `pullback` : 押し目買い型（上昇トレンド中の一時調整でエントリー。EquityQuery→テクニカル→SR の3段パイプライン。実行に時間がかかります）
 
 ## 出力
 
@@ -113,6 +115,9 @@ sharpe-ratio プリセットが指定された場合は自動的に legacy モ�
 
 ### Sharpe Ratio モードの出力列
 順位 / 銘柄 / 株価 / PER / HV30 / 期待リターン / 調整SR / 条件数 / スコア
+
+### Pullback モードの出力列
+順位 / 銘柄 / 株価 / PER / 押し目% / RSI / 出来高比 / SMA50 / SMA200 / スコア
 
 ## 実行例
 
@@ -134,4 +139,7 @@ python3 .../run_screen.py --region japan --preset sharpe-ratio
 
 # Legacy モードで米国株をスクリーニング
 python3 .../run_screen.py --region us --preset value --mode legacy
+
+# 日本株の押し目買い候補
+python3 .../run_screen.py --region japan --preset pullback
 ```

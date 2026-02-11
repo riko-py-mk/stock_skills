@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Optional
 
+import pandas as pd
 import yfinance as yf
 from yfinance import EquityQuery
 
@@ -395,3 +396,35 @@ def screen_stocks(
     except Exception as e:
         print(f"[yahoo_client] Error in screen_stocks: {e}")
         return []
+
+
+# ---------------------------------------------------------------------------
+# Price history for technical analysis
+# ---------------------------------------------------------------------------
+
+def get_price_history(symbol: str, period: str = "1y") -> Optional[pd.DataFrame]:
+    """Fetch price history for technical analysis.
+
+    Returns a pandas DataFrame with columns: Open, High, Low, Close, Volume.
+    Returns None on error.
+
+    No caching is applied because technical analysis requires the latest data.
+    A 1-second sleep is used for rate-limit compliance.
+    """
+    try:
+        time.sleep(1)  # rate-limit
+        ticker = yf.Ticker(symbol)
+        hist = ticker.history(period=period)
+        if hist is None or hist.empty:
+            print(f"[yahoo_client] No price history for {symbol}")
+            return None
+        # Keep only the standard OHLCV columns
+        expected_cols = ["Open", "High", "Low", "Close", "Volume"]
+        available_cols = [c for c in expected_cols if c in hist.columns]
+        if "Close" not in available_cols:
+            print(f"[yahoo_client] No 'Close' column in history for {symbol}")
+            return None
+        return hist[available_cols]
+    except Exception as e:
+        print(f"[yahoo_client] Error fetching price history for {symbol}: {e}")
+        return None

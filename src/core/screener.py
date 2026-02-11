@@ -1,5 +1,6 @@
 """Value stock screening engine."""
 
+import time
 from pathlib import Path
 from typing import Optional
 
@@ -9,6 +10,7 @@ from src.core.filters import apply_filters
 from src.core.indicators import calculate_value_score
 from src.core.query_builder import build_query
 from src.core.sharpe import compute_full_sharpe_score
+from src.core.technicals import detect_pullback_in_uptrend
 
 CONFIG_PATH = Path(__file__).resolve().parent.parent.parent / "config" / "screening_presets.yaml"
 
@@ -316,4 +318,167 @@ class QueryScreener:
 
         # Sort by value_score descending, take top N
         results.sort(key=lambda r: r["value_score"], reverse=True)
+        return results[:top_n]
+
+
+class PullbackScreener:
+    """Screen stocks for pullback-in-uptrend entry opportunities.
+
+    Three-step pipeline:
+      Step 1: EquityQuery for fundamental filtering (PER<20, ROE>8%, EPS growth>5%)
+      Step 2: Technical filter - detect pullback in uptrend
+      Step 3: 5-condition SR check (reuse SharpeScreener logic where possible)
+    """
+
+    # Default fundamental criteria for pullback screening
+    DEFAULT_CRITERIA = {
+        "max_per": 20,
+        "min_roe": 0.08,
+        "min_revenue_growth": 0.05,
+    }
+
+    def __init__(self, yahoo_client):
+        """Initialise the screener.
+
+        Parameters
+        ----------
+        yahoo_client : module or object
+            Must expose ``screen_stocks()``, ``get_price_history()``,
+            and ``get_stock_detail()``.
+        """
+        self.yahoo_client = yahoo_client
+
+    def screen(
+        self,
+        region: str = "jp",
+        top_n: int = 20,
+        fundamental_criteria: Optional[dict] = None,
+    ) -> list[dict]:
+        """Run the three-step pullback screening pipeline.
+
+        Parameters
+        ----------
+        region : str
+            Market region code (e.g. 'jp', 'us', 'sg').
+        top_n : int
+            Maximum number of results to return.
+        fundamental_criteria : dict, optional
+            Override the default fundamental criteria.
+
+        Returns
+        -------
+        list[dict]
+            Screened stocks sorted by final_score descending.
+        """
+        criteria = fundamental_criteria if fundamental_criteria is not None else dict(self.DEFAULT_CRITERIA)
+
+        # ---------------------------------------------------------------
+        # Step 1: Fundamental filtering via EquityQuery
+        # ---------------------------------------------------------------
+        query = build_query(criteria, region=region)
+
+        raw_quotes = self.yahoo_client.screen_stocks(
+            query,
+            size=100,
+            sort_field="intradaymarketcap",
+            sort_asc=False,
+        )
+
+        if not raw_quotes:
+            return []
+
+        # Normalize quotes using QueryScreener's static method
+        fundamentals: list[dict] = []
+        for quote in raw_quotes:
+            normalized = QueryScreener._normalize_quote(quote)
+            # Also compute value_score for fallback scoring
+            normalized["value_score"] = calculate_value_score(normalized)
+            fundamentals.append(normalized)
+
+        # ---------------------------------------------------------------
+        # Step 2: Technical filter - pullback in uptrend
+        # ---------------------------------------------------------------
+        technical_passed: list[dict] = []
+        for stock in fundamentals:
+            symbol = stock.get("symbol")
+            if not symbol:
+                continue
+
+            hist = self.yahoo_client.get_price_history(symbol)
+            if hist is None or hist.empty:
+                continue
+
+            tech_result = detect_pullback_in_uptrend(hist)
+            if tech_result is None:
+                continue
+
+            if not tech_result.get("all_conditions"):
+                continue
+
+            # Attach technical indicators to the stock dict
+            stock["pullback_pct"] = tech_result.get("pullback_pct")
+            stock["rsi"] = tech_result.get("rsi")
+            stock["volume_ratio"] = tech_result.get("volume_ratio")
+            stock["sma50"] = tech_result.get("sma50")
+            stock["sma200"] = tech_result.get("sma200")
+            technical_passed.append(stock)
+
+        if not technical_passed:
+            return []
+
+        # ---------------------------------------------------------------
+        # Step 3: SR calculation (optional enrichment)
+        # ---------------------------------------------------------------
+        results: list[dict] = []
+        for stock in technical_passed:
+            symbol = stock["symbol"]
+
+            adjusted_sr: Optional[float] = None
+            conditions_passed: Optional[int] = None
+
+            try:
+                detail = self.yahoo_client.get_stock_detail(symbol)
+                if detail is not None:
+                    # Use default thresholds for SR evaluation
+                    thresholds = {
+                        "hv30_max": 0.25,
+                        "per_max": 15.0,
+                        "pbr_max": 1.5,
+                    }
+                    rf = 0.005
+                    sr_result = compute_full_sharpe_score(detail, thresholds, rf=rf)
+                    if sr_result is not None:
+                        adjusted_sr = sr_result.get("adjusted_sr")
+                        conditions_passed = sr_result.get("conditions_passed")
+            except Exception:
+                pass
+
+            # Determine final_score: SR score if available, else value_score
+            if adjusted_sr is not None:
+                final_score = adjusted_sr
+            else:
+                final_score = stock.get("value_score", 0.0)
+
+            results.append({
+                "symbol": symbol,
+                "name": stock.get("name"),
+                "price": stock.get("price"),
+                "per": stock.get("per"),
+                "pbr": stock.get("pbr"),
+                "dividend_yield": stock.get("dividend_yield"),
+                "roe": stock.get("roe"),
+                # Technical
+                "pullback_pct": stock.get("pullback_pct"),
+                "rsi": stock.get("rsi"),
+                "volume_ratio": stock.get("volume_ratio"),
+                "sma50": stock.get("sma50"),
+                "sma200": stock.get("sma200"),
+                # SR (may be None)
+                "adjusted_sr": adjusted_sr,
+                "conditions_passed": conditions_passed,
+                "final_score": final_score,
+            })
+
+        # Sort by final_score descending
+        results.sort(key=lambda r: r.get("final_score") or 0.0, reverse=True)
         return results[:top_n]

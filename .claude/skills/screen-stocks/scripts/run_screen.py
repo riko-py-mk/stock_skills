@@ -14,8 +14,8 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
 
 from src.data import yahoo_client
-from src.core.screener import ValueScreener, SharpeScreener, QueryScreener
-from src.output.formatter import format_markdown, format_sharpe_markdown, format_query_markdown
+from src.core.screener import ValueScreener, SharpeScreener, QueryScreener, PullbackScreener
+from src.output.formatter import format_markdown, format_sharpe_markdown, format_query_markdown, format_pullback_markdown
 from src.markets.japan import JapanMarket
 from src.markets.us import USMarket
 from src.markets.asean import ASEANMarket
@@ -92,6 +92,19 @@ def run_query_mode(args):
     if regions is None:
         # Treat as raw 2-letter region code
         regions = [region_key]
+
+    # pullback preset uses PullbackScreener
+    if args.preset == "pullback":
+        screener = PullbackScreener(yahoo_client)
+        for region_code in regions:
+            region_name = REGION_NAMES.get(region_code, region_code.upper())
+            print(f"\n## {region_name} - 押し目買い スクリーニング結果\n")
+            print("Step 1: ファンダメンタルズ条件で絞り込み中...")
+            results = screener.screen(region=region_code, top_n=args.top)
+            print(f"Step 2-3 完了: {len(results)}銘柄が条件に合致\n")
+            print(format_pullback_markdown(results))
+            print()
+        return
 
     screener = QueryScreener(yahoo_client)
 
@@ -170,7 +183,7 @@ def main():
     parser.add_argument(
         "--preset",
         default="value",
-        choices=["value", "high-dividend", "growth-value", "deep-value", "quality", "sharpe-ratio"],
+        choices=["value", "high-dividend", "growth-value", "deep-value", "quality", "sharpe-ratio", "pullback"],
     )
     parser.add_argument(
         "--sector",
@@ -213,6 +226,11 @@ def main():
     if args.preset == "sharpe-ratio" and args.mode == "query":
         print("Note: sharpe-ratio preset requires legacy mode. Switching to --mode legacy.")
         args.mode = "legacy"
+
+    # pullback preset always uses query mode (needs EquityQuery + technical analysis)
+    if args.preset == "pullback" and args.mode == "legacy":
+        print("Note: pullback preset requires query mode. Switching to --mode query.")
+        args.mode = "query"
 
     if args.mode == "query":
         run_query_mode(args)

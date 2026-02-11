@@ -130,3 +130,34 @@ def format_sharpe_markdown(results: list[dict]) -> str:
         )
 
     return "\n".join(lines)
+
+
+def format_pullback_markdown(results: list[dict]) -> str:
+    """Format pullback screening results as a Markdown table."""
+    if not results:
+        return "押し目条件に合致する銘柄が見つかりませんでした。（上昇トレンド中の押し目銘柄なし）"
+
+    lines = [
+        "| 順位 | 銘柄 | 株価 | PER | 押し目% | RSI | 出来高比 | SMA50 | SMA200 | スコア |",
+        "|---:|:-----|-----:|----:|------:|----:|-------:|------:|-------:|------:|",
+    ]
+
+    for rank, row in enumerate(results, start=1):
+        symbol = row.get("symbol", "-")
+        name = row.get("name") or ""
+        label = f"{symbol} {name}".strip() if name else symbol
+
+        price = _fmt_float(row.get("price"), decimals=0) if row.get("price") is not None else "-"
+        per = _fmt_float(row.get("per"))
+        pullback = _fmt_pct(row.get("pullback_pct"))
+        rsi = _fmt_float(row.get("rsi"), decimals=1)
+        vol_ratio = _fmt_float(row.get("volume_ratio"))
+        sma50 = _fmt_float(row.get("sma50"), decimals=0) if row.get("sma50") is not None else "-"
+        sma200 = _fmt_float(row.get("sma200"), decimals=0) if row.get("sma200") is not None else "-"
+        score = _fmt_float(row.get("final_score"))
+
+        lines.append(
+            f"| {rank} | {label} | {price} | {per} | {pullback} | {rsi} | {vol_ratio} | {sma50} | {sma200} | {score} |"
+        )
+
+    return "\n".join(lines)
