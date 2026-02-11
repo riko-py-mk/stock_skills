@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-割安株スクリーニングシステム。Yahoo Finance API（yfinance）を使って日本株・米国株・ASEAN株から割安銘柄をスクリーニングする。Claude Code Skills として動作し、`/screen-stocks`、`/stock-report`、`/watchlist` コマンドで利用する。
+割安株スクリーニングシステム。Yahoo Finance API（yfinance）を使って日本株・米国株・ASEAN株から割安銘柄をスクリーニングする。Claude Code Skills として動作し、`/screen-stocks`、`/stock-report`、`/watchlist`、`/stress-test` コマンドで利用する。
 
 ## Commands
 
@@ -40,6 +40,11 @@ python3 .claude/skills/watchlist/scripts/manage_watchlist.py list
 python3 .claude/skills/watchlist/scripts/manage_watchlist.py add my-list 7203.T AAPL
 python3 .claude/skills/watchlist/scripts/manage_watchlist.py show my-list
 python3 .claude/skills/watchlist/scripts/manage_watchlist.py remove my-list 7203.T
+
+# ストレステスト実行
+python3 .claude/skills/stress-test/scripts/run_stress_test.py --portfolio 7203.T,AAPL,D05.SI
+python3 .claude/skills/stress-test/scripts/run_stress_test.py --portfolio 7203.T,9984.T --scenario トリプル安
+python3 .claude/skills/stress-test/scripts/run_stress_test.py --portfolio 7203.T,AAPL --weights 0.6,0.4 --scenario 米国リセッション
 
 # 依存インストール
 pip install -r requirements.txt
@@ -80,17 +85,29 @@ Core Layer (src/core/)     Market Layer (src/markets/)
   ├─ sharpe.py
   │   compute_full_sharpe_score() → SR最適化
   │
+  ├─ concentration.py
+  │   compute_hhi() / analyze_concentration()
+  │   セクター・地域・通貨の3軸HHI算出
+  │
+  ├─ shock_sensitivity.py  (Team 2)
+  │   compute_shock_sensitivity()
+  │
+  ├─ scenario_analysis.py  (Team 3)
+  │   analyze_scenario()
+  │
   └─ technicals.py
       detect_pullback_in_uptrend()
       compute_rsi() / compute_bollinger_bands()
       │
 Data Layer (src/data/)     Output Layer (src/output/)
-  └─ yahoo_client.py         └─ formatter.py
-      get_stock_info()            format_markdown()
-      get_stock_detail()          format_query_markdown()
-      screen_stocks()             format_sharpe_markdown()
-      get_price_history()         format_pullback_markdown()
-      24時間TTLのJSONキャッシュ
+  └─ yahoo_client.py         ├─ formatter.py
+      get_stock_info()        │   format_markdown()
+      get_stock_detail()      │   format_query_markdown()
+      screen_stocks()         │   format_sharpe_markdown()
+      get_price_history()     │   format_pullback_markdown()
+      24時間TTLのJSONキャッシュ│
+                              └─ stress_formatter.py (Team 3)
+                                  format_stress_report()
 ```
 
 ## Four Screening Engines
