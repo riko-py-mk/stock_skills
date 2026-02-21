@@ -20,9 +20,12 @@ from src.data.yahoo_client._cache import (  # noqa: F401
     _cache_path,
     _read_cache,
     _write_cache,
+    _read_stale_cache,
     _detail_cache_path,
     _read_detail_cache,
     _write_detail_cache,
+    _read_stale_detail_cache,
+    _is_network_error,
 )
 
 # -- Normalization utilities (internal, but imported by tests) --

@@ -22,11 +22,15 @@ from src.data.yahoo_client import (
     MACRO_TICKERS,
     _build_dividend_history_from_actions,
     _cache_path,
+    _is_network_error,
     _normalize_ratio,
     _read_cache,
+    _read_stale_cache,
+    _read_stale_detail_cache,
     _safe_get,
     _sanitize_anomalies,
     _write_cache,
+    _write_detail_cache,
     get_macro_indicators,
 )
 
@@ -572,3 +576,110 @@ class TestGetMacroIndicators:
             assert ind["price"] is None
             assert ind["daily_change"] is None
             assert ind["weekly_change"] is None
+
+
+# ---------------------------------------------------------------------------
+# _is_network_error
+# ---------------------------------------------------------------------------
+
+class TestIsNetworkError:
+    """Tests for _is_network_error()."""
+
+    def test_tunnel_error(self):
+        assert _is_network_error(Exception("CONNECT tunnel failed, response 403"))
+
+    def test_ssl_error(self):
+        assert _is_network_error(Exception("SSL handshake failed"))
+
+    def test_connection_refused(self):
+        assert _is_network_error(Exception("Connection refused"))
+
+    def test_timeout(self):
+        assert _is_network_error(Exception("timed out"))
+
+    def test_proxy_error(self):
+        assert _is_network_error(Exception("proxy authentication required"))
+
+    def test_curl_error(self):
+        assert _is_network_error(Exception("curl: (56) recv failure"))
+
+    def test_non_network_error(self):
+        assert not _is_network_error(ValueError("invalid symbol"))
+
+    def test_key_error(self):
+        assert not _is_network_error(KeyError("regularMarketPrice"))
+
+    def test_empty_exception(self):
+        assert not _is_network_error(Exception(""))
+
+
+# ---------------------------------------------------------------------------
+# _read_stale_cache / _read_stale_detail_cache
+# ---------------------------------------------------------------------------
+
+class TestStaleCacheRead:
+    """Tests for _read_stale_cache() and _read_stale_detail_cache()."""
+
+    def test_returns_none_when_no_file(self, tmp_path):
+        with patch(_CACHE_DIR_PATCH, tmp_path):
+            assert _read_stale_cache("MISSING") is None
+
+    def test_returns_expired_data(self, tmp_path):
+        """_read_stale_cache returns data even when TTL has expired."""
+        with patch(_CACHE_DIR_PATCH, tmp_path):
+            expired_time = (datetime.now() - timedelta(hours=CACHE_TTL_HOURS + 100)).isoformat()
+            data = {"symbol": "9984.T", "price": 4440.0, "_cached_at": expired_time}
+            cache_file = tmp_path / "9984_T.json"
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(data, f)
+
+            result = _read_stale_cache("9984.T")
+            assert result is not None
+            assert result["symbol"] == "9984.T"
+            assert result["price"] == 4440.0
+
+    def test_stale_flag_is_set(self, tmp_path):
+        """_read_stale_cache tags the result with _stale=True."""
+        with patch(_CACHE_DIR_PATCH, tmp_path):
+            expired_time = (datetime.now() - timedelta(hours=CACHE_TTL_HOURS + 1)).isoformat()
+            data = {"symbol": "AAPL", "_cached_at": expired_time}
+            cache_file = tmp_path / "AAPL.json"
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(data, f)
+
+            result = _read_stale_cache("AAPL")
+            assert result is not None
+            assert result.get("_stale") is True
+
+    def test_returns_fresh_data_too(self, tmp_path):
+        """_read_stale_cache also works for non-expired cache (stale flag still set)."""
+        with patch(_CACHE_DIR_PATCH, tmp_path):
+            data = {"symbol": "7203.T", "price": 2850.0}
+            _write_cache("7203.T", data)
+
+            result = _read_stale_cache("7203.T")
+            assert result is not None
+            assert result["_stale"] is True
+
+    def test_corrupt_file_returns_none(self, tmp_path):
+        with patch(_CACHE_DIR_PATCH, tmp_path):
+            (tmp_path / "BAD.json").write_text("{{corrupt")
+            assert _read_stale_cache("BAD") is None
+
+    def test_stale_detail_returns_none_when_no_file(self, tmp_path):
+        with patch(_CACHE_DIR_PATCH, tmp_path):
+            assert _read_stale_detail_cache("MISSING") is None
+
+    def test_stale_detail_returns_expired_data(self, tmp_path):
+        """_read_stale_detail_cache returns detail data ignoring TTL."""
+        with patch(_CACHE_DIR_PATCH, tmp_path):
+            expired_time = (datetime.now() - timedelta(hours=CACHE_TTL_HOURS + 50)).isoformat()
+            data = {"symbol": "7203.T", "per": 10.5, "_cached_at": expired_time}
+            detail_file = tmp_path / "7203_T_detail.json"
+            with open(detail_file, "w", encoding="utf-8") as f:
+                json.dump(data, f)
+
+            result = _read_stale_detail_cache("7203.T")
+            assert result is not None
+            assert result["per"] == 10.5
+            assert result.get("_stale") is True
