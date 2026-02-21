@@ -1,0 +1,67 @@
+name: Collect Japan Market Data
+
+on:
+  schedule:
+    # 08:00 UTC = 17:00 JST  (30min after Tokyo close at 15:30 JST)
+    # Weekdays only
+    - cron: '0 8 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      region:
+        description: 'Region to collect (japan / us / all)'
+        required: false
+        default: 'japan'
+      dry_run:
+        description: 'Dry run (do not commit)'
+        required: false
+        default: 'false'
+
+jobs:
+  collect-market-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to git push collected data
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install yfinance pandas pyyaml requests
+
+      - name: Collect Japan market data
+        run: |
+          python3 .github/scripts/collect_market_data.py \
+            --region ${{ github.event.inputs.region || 'japan' }} \
+            --output data/market \
+            --verbose
+
+      - name: Show collected files
+        run: |
+          echo "=== Collected files ==="
+          find data/market -name "*.json" | head -20 || echo "No files found"
+          if [ -f data/market/japan/_meta.json ]; then
+            cat data/market/japan/_meta.json
+          fi
+
+      - name: Commit and push collected data
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/market/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update market data $(date -u +'%Y-%m-%d')"
+            git push
+          fi

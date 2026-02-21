@@ -1,5 +1,6 @@
 """Stock info and detail fetching (KIK-449)."""
 
+import os
 import socket
 import time
 from typing import Any, Optional
@@ -10,14 +11,47 @@ import yfinance as yf
 from src.data.yahoo_client._cache import (
     _read_cache,
     _write_cache,
+    _read_stale_cache,
     _read_detail_cache,
     _write_detail_cache,
+    _read_stale_detail_cache,
+    _is_network_error,
 )
 from src.data.yahoo_client._normalize import (
     _normalize_ratio,
     _safe_get,
     _sanitize_anomalies,
 )
+
+# Lazy import to avoid circular deps and keep startup fast
+def _market_data_client():
+    """Return market_data_client module (lazy import)."""
+    try:
+        from src.data import market_data_client
+        return market_data_client
+    except ImportError:
+        return None
+
+# When set to "1", skip live API calls and use cache only (stale data OK).
+_OFFLINE_MODE = os.environ.get("STOCK_DATA_OFFLINE", "").strip() == "1"
+
+
+def _warn_stale(symbol: str, cached_at: str) -> None:
+    """Print a warning that stale cached data is being returned."""
+    print(
+        f"⚠️  ネットワーク制限のため {symbol} のライブデータを取得できませんでした\n"
+        f"    キャッシュデータ（取得日時: {cached_at}）を使用しています\n"
+        "    対処: ネットワーク接続を確認するか、STOCK_DATA_OFFLINE=1 でオフラインモードを明示できます"
+    )
+
+
+def _warn_market_data(symbol: str, updated: str) -> None:
+    """Print a warning that pre-collected market data is being used."""
+    print(
+        f"📦 {symbol}: ライブAPIが利用不可のため、GitHub Actions収集データを使用しています\n"
+        f"    収集日時: {updated}\n"
+        "    最新データはGitHub Actionsが毎営業日17:00 JST頃に更新します"
+    )
 
 
 def _try_get_field(df: Any, field_names: list[str]) -> Optional[float]:
@@ -116,11 +150,18 @@ def get_stock_info(symbol: str) -> Optional[dict]:
 
     Returns a dict with standardized keys, or None if the fetch fails entirely.
     Individual fields that are unavailable are set to None.
+
+    When ``STOCK_DATA_OFFLINE=1`` or a network error is detected, the function
+    falls back to stale cached data (ignoring TTL) rather than returning None.
     """
-    # Check cache first
+    # Check fresh cache first
     cached = _read_cache(symbol)
     if cached is not None:
         return cached
+
+    # Offline mode: skip live call, use stale cache or market data
+    if _OFFLINE_MODE:
+        return _network_fallback_info(symbol)
 
     try:
         ticker = yf.Ticker(symbol)
@@ -171,22 +212,37 @@ def get_stock_info(symbol: str) -> Optional[dict]:
         return result
 
     except (TimeoutError, socket.timeout) as e:
-        print(
-            f"⚠️  Yahoo Financeへの接続がタイムアウトしました ({symbol})\n"
-            "    原因: ネットワーク接続が不安定、またはYahoo Financeが一時的に応答していません\n"
-            "    対処: ネットワーク接続を確認し、再試行してください"
-        )
-        return None
+        return _network_fallback_info(symbol)
     except Exception as e:
-        if "timed out" in str(e).lower() or "timeout" in str(e).lower():
-            print(
-                f"⚠️  Yahoo Financeへの接続がタイムアウトしました ({symbol})\n"
-                "    原因: ネットワーク接続が不安定、またはYahoo Financeが一時的に応答していません\n"
-                "    対処: ネットワーク接続を確認し、再試行してください"
-            )
-        else:
-            print(f"[yahoo_client] Error fetching {symbol}: {e}")
+        if _is_network_error(e):
+            return _network_fallback_info(symbol)
+        print(f"[yahoo_client] Error fetching {symbol}: {e}")
         return None
+
+
+def _network_fallback_info(symbol: str) -> Optional[dict]:
+    """Try stale cache then pre-collected market data when network is unavailable."""
+    # 1. Stale local cache
+    stale = _read_stale_cache(symbol)
+    if stale is not None:
+        _warn_stale(symbol, stale.get("_cached_at", "不明"))
+        return stale
+    # 2. Pre-collected market data (GitHub Actions daily collection)
+    mdc = _market_data_client()
+    if mdc is not None:
+        # Infer region from ticker suffix (.T = japan)
+        region = "japan" if symbol.endswith(".T") else "us"
+        md = mdc.get_stock_info(symbol, region=region)
+        if md is not None:
+            updated = md.get("_market_data_updated", "不明")
+            _warn_market_data(symbol, updated)
+            return md
+    print(
+        f"⚠️  {symbol} のデータを取得できませんでした\n"
+        "    ネットワーク制限中かつキャッシュ・収集データなし\n"
+        "    GitHub Actions の collect-market-data ワークフローが完了後に再試行してください"
+    )
+    return None
 
 
 def get_multiple_stocks(symbols: list[str]) -> dict[str, Optional[dict]]:
@@ -215,12 +271,20 @@ def get_stock_detail(symbol: str) -> Optional[dict]:
 
     Returns a merged dict or None if the base data cannot be fetched.
     """
-    # 1. Get base data first
+    # 1. Get base data first (may return stale data if network is unavailable)
     base = get_stock_info(symbol)
     if base is None:
         return None
 
-    # 2. Check detail cache
+    # If base data came from a non-live source, skip live detail fetch
+    if base.get("_stale") or base.get("_from_market_data"):
+        stale_detail = _read_stale_detail_cache(symbol)
+        if stale_detail is not None:
+            return stale_detail
+        # No detail cache available — return base only
+        return base
+
+    # 2. Check fresh detail cache
     cached = _read_detail_cache(symbol)
     if cached is not None:
         return cached
@@ -466,20 +530,23 @@ def get_stock_detail(symbol: str) -> Optional[dict]:
         _write_detail_cache(symbol, result)
         return result
 
-    except (TimeoutError, socket.timeout) as e:
-        print(
-            f"⚠️  Yahoo Financeへの接続がタイムアウトしました ({symbol})\n"
-            "    原因: ネットワーク接続が不安定、またはYahoo Financeが一時的に応答していません\n"
-            "    対処: ネットワーク接続を確認し、再試行してください"
-        )
-        return None
+    except (TimeoutError, socket.timeout):
+        return _network_fallback_detail(symbol, base)
     except Exception as e:
-        if "timed out" in str(e).lower() or "timeout" in str(e).lower():
-            print(
-                f"⚠️  Yahoo Financeへの接続がタイムアウトしました ({symbol})\n"
-                "    原因: ネットワーク接続が不安定、またはYahoo Financeが一時的に応答していません\n"
-                "    対処: ネットワーク接続を確認し、再試行してください"
-            )
-        else:
-            print(f"[yahoo_client] Error fetching detail for {symbol}: {e}")
+        if _is_network_error(e):
+            return _network_fallback_detail(symbol, base)
+        print(f"[yahoo_client] Error fetching detail for {symbol}: {e}")
         return None
+
+
+def _network_fallback_detail(symbol: str, base: dict) -> Optional[dict]:
+    """Fallback for get_stock_detail when network is unavailable.
+
+    Priority: stale detail cache → pre-collected market data → base info only.
+    """
+    stale = _read_stale_detail_cache(symbol)
+    if stale is not None:
+        _warn_stale(symbol, stale.get("_cached_at", "不明"))
+        return stale
+    # Market data base already has the warning printed; just return it
+    return base
