@@ -4,12 +4,12 @@
   "sector": "Technology",
   "industry": "Electronic Components",
   "currency": "JPY",
-  "price": 9237.0,
-  "market_cap": 1107332562944.0,
-  "per": 33.223034,
-  "forward_per": 47.32312,
-  "pbr": 4.8627334,
-  "psr": 4.6717176,
+  "price": 9182.0,
+  "market_cap": 1100739117056.0,
+  "per": 33.025215,
+  "forward_per": 47.041344,
+  "pbr": 4.833779,
+  "psr": 4.6439004,
   "roe": 0.17196,
   "roa": 0.095970005,
   "profit_margin": 0.14068,
@@ -25,5 +25,5 @@
   "beta": 0.591,
   "fifty_two_week_high": 9410.0,
   "fifty_two_week_low": 2519.5,
-  "_market_data_updated": "2026-02-23T08:43:33.639907+00:00"
+  "_market_data_updated": "2026-02-24T08:40:42.306714+00:00"
 }

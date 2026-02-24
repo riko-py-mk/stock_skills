@@ -4,12 +4,12 @@
   "sector": "Consumer Defensive",
   "industry": "Packaged Foods",
   "currency": "JPY",
-  "price": 3384.0,
-  "market_cap": 668525789184.0,
-  "per": 16.366802,
-  "forward_per": 17.464905,
-  "pbr": 1.4538455,
-  "psr": 0.50976855,
+  "price": 3514.0,
+  "market_cap": 694207905792.0,
+  "per": 16.99555,
+  "forward_per": 18.13584,
+  "pbr": 1.5096965,
+  "psr": 0.52935183,
   "roe": 0.08948,
   "roa": 0.042529996,
   "profit_margin": 0.03118,
@@ -25,5 +25,5 @@
   "beta": -0.519,
   "fifty_two_week_high": 3649.0,
   "fifty_two_week_low": 2662.0,
-  "_market_data_updated": "2026-02-23T08:43:10.091015+00:00"
+  "_market_data_updated": "2026-02-24T08:40:19.719297+00:00"
 }

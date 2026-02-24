@@ -4,12 +4,12 @@
   "sector": "Consumer Defensive",
   "industry": "Household & Personal Products",
   "currency": "JPY",
-  "price": 1644.0,
-  "market_cap": 196672077824.0,
-  "per": 22.935268,
-  "forward_per": 22.970518,
-  "pbr": 2.3719418,
-  "psr": 1.8015213,
+  "price": 1705.0,
+  "market_cap": 203969511424.0,
+  "per": 23.786272,
+  "forward_per": 23.82283,
+  "pbr": 2.4599516,
+  "psr": 1.868366,
   "roe": 0.103649996,
   "roa": 0.07532,
   "profit_margin": 0.0785,
@@ -25,5 +25,5 @@
   "beta": 0.155,
   "fifty_two_week_high": 1909.0,
   "fifty_two_week_low": 1556.0,
-  "_market_data_updated": "2026-02-23T08:44:50.331885+00:00"
+  "_market_data_updated": "2026-02-24T08:41:55.218410+00:00"
 }

@@ -4,12 +4,12 @@
   "sector": "Real Estate",
   "industry": "Real Estate Services",
   "currency": "JPY",
-  "price": 4145.0,
-  "market_cap": 860550725632.0,
-  "per": 14.641469,
-  "forward_per": 16.83112,
-  "pbr": 1.4559999,
-  "psr": 1.8132662,
+  "price": 4121.0,
+  "market_cap": 855568089088.0,
+  "per": 14.556693,
+  "forward_per": 16.733665,
+  "pbr": 1.4475694,
+  "psr": 1.8027673,
   "roe": 0.10379,
   "roa": 0.027560001,
   "profit_margin": 0.124060005,
@@ -25,5 +25,5 @@
   "beta": -0.099,
   "fifty_two_week_high": 4341.0,
   "fifty_two_week_low": 2237.5,
-  "_market_data_updated": "2026-02-23T08:45:22.371363+00:00"
+  "_market_data_updated": "2026-02-24T08:42:25.147116+00:00"
 }

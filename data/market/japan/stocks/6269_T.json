@@ -4,12 +4,12 @@
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
   "currency": "JPY",
-  "price": 14710.0,
-  "market_cap": 1005291307008.0,
-  "per": 18.214912,
-  "forward_per": 40.430973,
-  "pbr": 4.4206576,
-  "psr": 1.4018843,
+  "price": 13755.0,
+  "market_cap": 940025970688.0,
+  "per": 17.032368,
+  "forward_per": 37.806118,
+  "pbr": 4.133661,
+  "psr": 1.3108715,
   "roe": 0.30591,
   "roa": 0.04082,
   "profit_margin": 0.07873,
@@ -25,5 +25,5 @@
   "beta": 0.727,
   "fifty_two_week_high": 16720.0,
   "fifty_two_week_low": 3135.0,
-  "_market_data_updated": "2026-02-23T08:44:10.875105+00:00"
+  "_market_data_updated": "2026-02-24T08:41:17.909345+00:00"
 }
