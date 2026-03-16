@@ -8,14 +8,14 @@
   "market_cap": 396744523776.0,
   "per": 8.772147,
   "forward_per": 2.4729307,
-  "pbr": 0.95975924,
+  "pbr": 0.95975274,
   "psr": 0.45376614,
   "roe": 0.118240006,
   "roa": 0.0076200003,
   "profit_margin": 0.05369,
   "operating_margin": 0.05645,
-  "dividend_yield": 0.0351,
-  "dividend_yield_trailing": 0.018934082,
+  "dividend_yield": 0.0353,
+  "dividend_yield_trailing": 0.019067796,
   "payout_ratio": 0.3222,
   "revenue_growth": 0.288,
   "earnings_growth": 0.141,
@@ -25,5 +25,5 @@
   "beta": 0.232,
   "fifty_two_week_high": 1544.0,
   "fifty_two_week_low": 886.0,
-  "_market_data_updated": "2026-03-13T08:36:39.430804+00:00"
+  "_market_data_updated": "2026-03-16T08:53:07.000914+00:00"
 }
