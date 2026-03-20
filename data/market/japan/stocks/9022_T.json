@@ -5,16 +5,16 @@
   "industry": "Railroads",
   "currency": "JPY",
   "price": 4233.0,
-  "market_cap": 4051586777088.0,
-  "per": 7.936775,
+  "market_cap": 4043595579392.0,
+  "per": 7.9364786,
   "forward_per": 9.971262,
   "pbr": 0.8163123,
-  "psr": 2.0483644,
+  "psr": 2.0443242,
   "roe": 0.114300005,
   "roa": 0.04922,
   "profit_margin": 0.27341,
   "operating_margin": 0.45626998,
-  "dividend_yield": 0.73,
+  "dividend_yield": 0.76,
   "dividend_yield_trailing": 0.0072959415,
   "payout_ratio": 0.06,
   "revenue_growth": 0.076,
@@ -25,5 +25,5 @@
   "beta": 0.101,
   "fifty_two_week_high": 4830.0,
   "fifty_two_week_low": 2716.5,
-  "_market_data_updated": "2026-03-19T08:38:36.666885+00:00"
+  "_market_data_updated": "2026-03-20T08:37:30.669355+00:00"
 }

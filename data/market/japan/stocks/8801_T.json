@@ -5,16 +5,16 @@
   "industry": "Real Estate - Diversified",
   "currency": "JPY",
   "price": 1814.0,
-  "market_cap": 4955146551296.0,
-  "per": 16.104404,
+  "market_cap": 4944648732672.0,
+  "per": 16.128746,
   "forward_per": 19.088709,
   "pbr": 1.5552473,
-  "psr": 1.690938,
+  "psr": 1.6873556,
   "roe": null,
   "roa": null,
   "profit_margin": 0.11078,
   "operating_margin": 0.13342,
-  "dividend_yield": 0.0181,
+  "dividend_yield": 0.0187,
   "dividend_yield_trailing": 0.017548524,
   "payout_ratio": 0.2932,
   "revenue_growth": 0.222,
@@ -25,5 +25,5 @@
   "beta": 0.206,
   "fifty_two_week_high": 2158.0,
   "fifty_two_week_low": 1270.5,
-  "_market_data_updated": "2026-03-19T08:38:29.616125+00:00"
+  "_market_data_updated": "2026-03-20T08:37:23.052879+00:00"
 }

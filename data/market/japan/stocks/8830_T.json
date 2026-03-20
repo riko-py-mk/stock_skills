@@ -5,16 +5,16 @@
   "industry": "Real Estate Services",
   "currency": "JPY",
   "price": 4678.0,
-  "market_cap": 4322181251072.0,
-  "per": 21.866966,
+  "market_cap": 4324260052992.0,
+  "per": 21.882309,
   "forward_per": 11.18443,
   "pbr": 1.7977256,
-  "psr": 4.2772107,
+  "psr": 4.279268,
   "roe": 0.09603,
   "roa": 0.026730001,
   "profit_margin": 0.0,
   "operating_margin": 0.28717,
-  "dividend_yield": 0.88,
+  "dividend_yield": 0.92,
   "dividend_yield_trailing": 0.0079185525,
   "payout_ratio": 0.18,
   "revenue_growth": null,
@@ -25,5 +25,5 @@
   "beta": null,
   "fifty_two_week_high": 5358.0,
   "fifty_two_week_low": 2448.5,
-  "_market_data_updated": "2026-03-19T08:38:31.549941+00:00"
+  "_market_data_updated": "2026-03-20T08:37:25.131092+00:00"
 }

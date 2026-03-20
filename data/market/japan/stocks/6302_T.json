@@ -5,16 +5,16 @@
   "industry": "Specialty Industrial Machinery",
   "currency": "JPY",
   "price": 5045.0,
-  "market_cap": 606325309440.0,
-  "per": 0.94633204,
+  "market_cap": 606315151360.0,
+  "per": 0.9463427,
   "forward_per": 15.095751,
   "pbr": 0.88946205,
-  "psr": 0.5683158,
+  "psr": 0.56830627,
   "roe": 0.046729997,
   "roa": 0.024939999,
   "profit_margin": 0.029000001,
   "operating_margin": 0.05335,
-  "dividend_yield": 0.0273,
+  "dividend_yield": 0.0287,
   "dividend_yield_trailing": 0.023571564,
   "payout_ratio": 0.0234,
   "revenue_growth": 0.049,
@@ -25,5 +25,5 @@
   "beta": 0.591,
   "fifty_two_week_high": 6362.0,
   "fifty_two_week_low": 2574.5,
-  "_market_data_updated": "2026-03-19T08:37:25.077437+00:00"
+  "_market_data_updated": "2026-03-20T08:36:13.353864+00:00"
 }

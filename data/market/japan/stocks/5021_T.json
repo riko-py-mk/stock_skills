@@ -5,16 +5,16 @@
   "industry": "Oil & Gas Integrated",
   "currency": "JPY",
   "price": 4588.0,
-  "market_cap": 752976330752.0,
-  "per": 12.677185,
+  "market_cap": 731497955328.0,
+  "per": 12.69051,
   "forward_per": 4.22425,
   "pbr": 1.2755364,
-  "psr": 0.27187002,
+  "psr": 0.264115,
   "roe": 0.06826,
   "roa": 0.03571,
   "profit_margin": 0.01781,
   "operating_margin": 0.04091,
-  "dividend_yield": 0.0352,
+  "dividend_yield": 0.036000000000000004,
   "dividend_yield_trailing": 0.035196245,
   "payout_ratio": 0.45610002,
   "revenue_growth": -0.06,
@@ -25,5 +25,5 @@
   "beta": -0.14,
   "fifty_two_week_high": 5034.0,
   "fifty_two_week_low": 2509.0,
-  "_market_data_updated": "2026-03-19T08:37:06.509960+00:00"
+  "_market_data_updated": "2026-03-20T08:35:53.484881+00:00"
 }

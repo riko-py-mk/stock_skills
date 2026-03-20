@@ -5,16 +5,16 @@
   "industry": "Drug Manufacturers - General",
   "currency": "JPY",
   "price": 2903.0,
-  "market_cap": 5368796676096.0,
-  "per": 19.386936,
+  "market_cap": 5324447678464.0,
+  "per": 19.41806,
   "forward_per": 20.22151,
   "pbr": 3.1414587,
-  "psr": 2.616184,
+  "psr": 2.5945728,
   "roe": 0.18267,
   "roa": 0.05461,
   "profit_margin": 0.14843,
   "operating_margin": 0.16043,
-  "dividend_yield": 0.0262,
+  "dividend_yield": 0.0269,
   "dividend_yield_trailing": 0.023177696,
   "payout_ratio": 0.4612,
   "revenue_growth": 0.151,
@@ -25,5 +25,5 @@
   "beta": -0.3,
   "fifty_two_week_high": 4178.0,
   "fifty_two_week_low": 2684.0,
-  "_market_data_updated": "2026-03-19T08:36:58.791027+00:00"
+  "_market_data_updated": "2026-03-20T08:35:44.676965+00:00"
 }

@@ -5,16 +5,16 @@
   "industry": "Steel",
   "currency": "JPY",
   "price": 12085.0,
-  "market_cap": 726716710912.0,
-  "per": 32.642754,
+  "market_cap": 724236828672.0,
+  "per": 32.67983,
   "forward_per": 13.716899,
   "pbr": 1.3648142,
-  "psr": 4.540816,
+  "psr": 4.525321,
   "roe": 0.08464,
   "roa": 0.00632,
   "profit_margin": 0.29124,
   "operating_margin": 0.03401,
-  "dividend_yield": 0.0319,
+  "dividend_yield": 0.0331,
   "dividend_yield_trailing": 0.027888447,
   "payout_ratio": 0.94629997,
   "revenue_growth": -0.126,
@@ -25,5 +25,5 @@
   "beta": 0.443,
   "fifty_two_week_high": 13205.0,
   "fifty_two_week_low": 6772.0,
-  "_market_data_updated": "2026-03-19T08:37:13.581573+00:00"
+  "_market_data_updated": "2026-03-20T08:36:01.316286+00:00"
 }

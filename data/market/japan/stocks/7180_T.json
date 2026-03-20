@@ -5,16 +5,16 @@
   "industry": "Banks - Regional",
   "currency": "JPY",
   "price": 1160.0,
-  "market_cap": 495396290560.0,
+  "market_cap": 493001572352.0,
   "per": 13.71807,
   "forward_per": 15.446073,
   "pbr": 0.653846,
-  "psr": 2.1638505,
+  "psr": 2.1533906,
   "roe": 0.05503,
   "roa": 0.0029499999,
   "profit_margin": 0.17648001,
   "operating_margin": 0.26785,
-  "dividend_yield": 0.0217,
+  "dividend_yield": 0.022400000000000003,
   "dividend_yield_trailing": 0.020066889,
   "payout_ratio": 0.284,
   "revenue_growth": 0.097,
@@ -25,5 +25,5 @@
   "beta": 0.01,
   "fifty_two_week_high": 1436.5,
   "fifty_two_week_low": 520.3,
-  "_market_data_updated": "2026-03-19T08:37:47.900574+00:00"
+  "_market_data_updated": "2026-03-20T08:36:37.155243+00:00"
 }

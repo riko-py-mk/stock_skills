@@ -5,16 +5,16 @@
   "industry": "Business Equipment & Supplies",
   "currency": "JPY",
   "price": 6923.0,
-  "market_cap": 742238060544.0,
-  "per": 18.139658,
+  "market_cap": 735987236864.0,
+  "per": 18.148693,
   "forward_per": 18.40734,
   "pbr": 1.7976393,
-  "psr": 1.0918492,
+  "psr": 1.0826541,
   "roe": 0.10418,
   "roa": 0.06679,
   "profit_margin": 0.06099,
   "operating_margin": 0.10633001,
-  "dividend_yield": 0.024300000000000002,
+  "dividend_yield": 0.0246,
   "dividend_yield_trailing": 0.024320457,
   "payout_ratio": 0.4458,
   "revenue_growth": 0.04,
@@ -25,5 +25,5 @@
   "beta": 0.151,
   "fifty_two_week_high": 7247.0,
   "fifty_two_week_low": 4486.0,
-  "_market_data_updated": "2026-03-19T08:38:07.962221+00:00"
+  "_market_data_updated": "2026-03-20T08:36:59.994596+00:00"
 }

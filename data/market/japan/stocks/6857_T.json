@@ -5,16 +5,16 @@
   "industry": "Semiconductor Equipment & Materials",
   "currency": "JPY",
   "price": 23980.0,
-  "market_cap": 17418743185408.0,
-  "per": 67.199104,
+  "market_cap": 17409825046528.0,
+  "per": 67.56833,
   "forward_per": 100.870735,
   "pbr": 25.826324,
-  "psr": 16.86415,
+  "psr": 16.855515,
   "roe": 0.49263,
   "roa": 0.2825,
   "profit_margin": 0.27931,
   "operating_margin": 0.41479,
-  "dividend_yield": 0.19,
+  "dividend_yield": 0.2,
   "dividend_yield_trailing": 0.0019498607,
   "payout_ratio": 0.1377,
   "revenue_growth": 0.255,
@@ -25,5 +25,5 @@
   "beta": 0.861,
   "fifty_two_week_high": 29345.0,
   "fifty_two_week_low": 4703.0,
-  "_market_data_updated": "2026-03-19T08:37:40.058268+00:00"
+  "_market_data_updated": "2026-03-20T08:36:28.774440+00:00"
 }

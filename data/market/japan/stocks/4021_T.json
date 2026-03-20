@@ -5,16 +5,16 @@
   "industry": "Chemicals",
   "currency": "JPY",
   "price": 6143.0,
-  "market_cap": 824237752320.0,
-  "per": 18.434713,
+  "market_cap": 823829331968.0,
+  "per": 18.450216,
   "forward_per": 19.050425,
   "pbr": 3.4168723,
-  "psr": 3.0306425,
+  "psr": 3.0291407,
   "roe": 0.19723,
   "roa": 0.11334,
   "profit_margin": 0.17052999,
   "operating_margin": 0.23549,
-  "dividend_yield": 0.0342,
+  "dividend_yield": 0.0358,
   "dividend_yield_trailing": 0.027048033,
   "payout_ratio": 0.5226,
   "revenue_growth": 0.153,
@@ -25,5 +25,5 @@
   "beta": 0.284,
   "fifty_two_week_high": 7180.0,
   "fifty_two_week_low": 3846.0,
-  "_market_data_updated": "2026-03-19T08:36:47.732342+00:00"
+  "_market_data_updated": "2026-03-20T08:35:32.737817+00:00"
 }
