@@ -4,12 +4,12 @@
   "sector": "Utilities",
   "industry": "Utilities - Regulated Electric",
   "currency": "JPY",
-  "price": 1814.5,
-  "market_cap": 372773912576.0,
-  "per": 4.868527,
-  "forward_per": 12.062891,
-  "pbr": 0.79978347,
-  "psr": 0.4692297,
+  "price": 1827.5,
+  "market_cap": 375444635648.0,
+  "per": 4.9034076,
+  "forward_per": 12.149316,
+  "pbr": 0.80551356,
+  "psr": 0.4725915,
   "roe": 0.15419,
   "roa": 0.03326,
   "profit_margin": 0.08432999,
@@ -25,5 +25,5 @@
   "beta": 0.051,
   "fifty_two_week_high": 1853.0,
   "fifty_two_week_low": 967.4,
-  "_market_data_updated": "2026-04-02T08:53:25.748256+00:00"
+  "_market_data_updated": "2026-04-03T08:48:38.130203+00:00"
 }
