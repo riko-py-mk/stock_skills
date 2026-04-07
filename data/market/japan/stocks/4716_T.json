@@ -4,12 +4,12 @@
   "sector": "Technology",
   "industry": "Software - Infrastructure",
   "currency": "JPY",
-  "price": 8744.0,
-  "market_cap": 1120571490304.0,
-  "per": 18.287912,
-  "forward_per": 16.888134,
-  "pbr": 5.957966,
-  "psr": 4.041183,
+  "price": 8726.0,
+  "market_cap": 1118264754176.0,
+  "per": 18.250267,
+  "forward_per": 16.853369,
+  "pbr": 5.945701,
+  "psr": 4.032864,
   "roe": 0.37396,
   "roa": 0.19077998,
   "profit_margin": 0.22647,
@@ -25,5 +25,5 @@
   "beta": -0.049,
   "fifty_two_week_high": 17875.0,
   "fifty_two_week_low": 8275.0,
-  "_market_data_updated": "2026-04-06T09:04:06.766500+00:00"
+  "_market_data_updated": "2026-04-07T08:57:16.265344+00:00"
 }
