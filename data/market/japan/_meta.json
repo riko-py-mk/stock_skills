@@ -1,7 +1,7 @@
 {
-  "_updated": "2026-04-07T08:56:26.135261+00:00",
+  "_updated": "2026-04-08T08:55:29.811388+00:00",
   "region": "japan",
-  "stocks_collected": 242,
+  "stocks_collected": 243,
   "stocks_failed": 2,
   "presets_screened": [
     "value",
@@ -59,6 +59,7 @@
     "4063.T",
     "4091.T",
     "4151.T",
+    "4186.T",
     "4205.T",
     "4307.T",
     "4401.T",
