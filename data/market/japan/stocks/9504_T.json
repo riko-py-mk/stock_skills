@@ -4,12 +4,12 @@
   "sector": "Utilities",
   "industry": "Utilities - Renewable",
   "currency": "JPY",
-  "price": 1002.0,
-  "market_cap": 360306081792.0,
-  "per": 3.228925,
-  "forward_per": 5.336884,
-  "pbr": 0.4746289,
-  "psr": 0.24200684,
+  "price": 991.9,
+  "market_cap": 356674273280.0,
+  "per": 3.196378,
+  "forward_per": 5.283089,
+  "pbr": 0.46984473,
+  "psr": 0.23956746,
   "roe": 0.12566,
   "roa": 0.01959,
   "profit_margin": 0.06041,
@@ -25,5 +25,5 @@
   "beta": 0.227,
   "fifty_two_week_high": 1145.0,
   "fifty_two_week_low": 677.2,
-  "_market_data_updated": "2026-04-09T09:04:23.798843+00:00"
+  "_market_data_updated": "2026-04-10T09:05:24.065476+00:00"
 }
