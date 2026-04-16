@@ -4,12 +4,12 @@
   "sector": "Basic Materials",
   "industry": "Other Industrial Metals & Mining",
   "currency": "JPY",
-  "price": 10055.0,
-  "market_cap": 588729876480.0,
-  "per": 29.585712,
-  "forward_per": 20.80273,
-  "pbr": 1.4804409,
-  "psr": 0.89182305,
+  "price": 10355.0,
+  "market_cap": 606295162880.0,
+  "per": 30.46843,
+  "forward_per": 21.423399,
+  "pbr": 1.5246111,
+  "psr": 0.9184314,
   "roe": 0.05696,
   "roa": 0.01663,
   "profit_margin": 0.0,
@@ -25,5 +25,5 @@
   "beta": null,
   "fifty_two_week_high": 11880.0,
   "fifty_two_week_low": 4300.0,
-  "_market_data_updated": "2026-04-15T09:14:07.542039+00:00"
+  "_market_data_updated": "2026-04-16T09:15:06.682121+00:00"
 }
