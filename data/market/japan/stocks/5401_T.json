@@ -4,12 +4,12 @@
   "sector": "Basic Materials",
   "industry": "Steel",
   "currency": "JPY",
-  "price": 598.0,
-  "market_cap": 3125357051904.0,
+  "price": 595.0,
+  "market_cap": 3109677957120.0,
   "per": null,
-  "forward_per": 1.071723,
-  "pbr": 0.5872648,
-  "psr": 0.33250773,
+  "forward_per": 1.0663465,
+  "pbr": 0.58431864,
+  "psr": 0.33083963,
   "roe": -0.00414,
   "roa": 0.020450002,
   "profit_margin": -0.00605,
@@ -25,5 +25,5 @@
   "beta": 0.702,
   "fifty_two_week_high": 699.8,
   "fifty_two_week_low": 532.4,
-  "_market_data_updated": "2026-04-16T09:15:00.905846+00:00"
+  "_market_data_updated": "2026-04-17T09:12:52.701953+00:00"
 }
