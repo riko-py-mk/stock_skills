@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Specialty Retail",
   "currency": "JPY",
-  "price": 1117.0,
-  "market_cap": 322836103168.0,
-  "per": 9.167008,
-  "forward_per": 3.7723742,
-  "pbr": 1.3700092,
-  "psr": 0.33945695,
+  "price": 1121.0,
+  "market_cap": 323992158208.0,
+  "per": 9.19908,
+  "forward_per": 3.7858832,
+  "pbr": 1.3749152,
+  "psr": 0.3406725,
   "roe": 0.17813,
   "roa": 0.060289998,
   "profit_margin": 0.04039,
@@ -25,5 +25,5 @@
   "beta": null,
   "fifty_two_week_high": 1385.0,
   "fifty_two_week_low": 826.6667,
-  "_market_data_updated": "2026-04-17T09:13:33.836224+00:00"
+  "_market_data_updated": "2026-04-20T09:56:22.571062+00:00"
 }

@@ -4,12 +4,12 @@
   "sector": "Energy",
   "industry": "Oil & Gas Integrated",
   "currency": "JPY",
-  "price": 4355.0,
-  "market_cap": 694349070336.0,
-  "per": 12.042695,
-  "forward_per": 4.0097227,
-  "pbr": 1.2107588,
-  "psr": 0.25070202,
+  "price": 4267.0,
+  "market_cap": 680318599168.0,
+  "per": 11.79055,
+  "forward_per": 3.9286997,
+  "pbr": 1.1862934,
+  "psr": 0.24563617,
   "roe": 0.06826,
   "roa": 0.03571,
   "profit_margin": 0.01781,
@@ -25,5 +25,5 @@
   "beta": -0.023,
   "fifty_two_week_high": 5034.0,
   "fifty_two_week_low": 2815.0,
-  "_market_data_updated": "2026-04-17T09:12:47.363847+00:00"
+  "_market_data_updated": "2026-04-20T09:55:29.556621+00:00"
 }

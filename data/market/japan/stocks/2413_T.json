@@ -4,12 +4,12 @@
   "sector": "Healthcare",
   "industry": "Health Information Services",
   "currency": "JPY",
-  "price": 1578.5,
-  "market_cap": 1059705585664.0,
-  "per": 23.357502,
-  "forward_per": 22.030704,
-  "pbr": 2.5652652,
-  "psr": 3.0825646,
+  "price": 1585.5,
+  "market_cap": 1064404975616.0,
+  "per": 23.468029,
+  "forward_per": 22.1284,
+  "pbr": 2.576641,
+  "psr": 3.0962346,
   "roe": 0.12472,
   "roa": 0.076069996,
   "profit_margin": 0.14425,
@@ -25,5 +25,5 @@
   "beta": 0.519,
   "fifty_two_week_high": 2746.0,
   "fifty_two_week_low": 1495.0,
-  "_market_data_updated": "2026-04-17T09:12:13.616454+00:00"
+  "_market_data_updated": "2026-04-20T09:54:50.005629+00:00"
 }

@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Business Equipment & Supplies",
   "currency": "JPY",
-  "price": 3640.0,
-  "market_cap": 773940051968.0,
-  "per": 19.079569,
-  "forward_per": 9.678277,
-  "pbr": 1.8903335,
-  "psr": 1.1384836,
+  "price": 3588.0,
+  "market_cap": 762883801088.0,
+  "per": 18.810946,
+  "forward_per": 9.540016,
+  "pbr": 1.8633288,
+  "psr": 1.1222196,
   "roe": 0.10418,
   "roa": 0.06679,
   "profit_margin": 0.06099,
@@ -25,5 +25,5 @@
   "beta": 0.167,
   "fifty_two_week_high": 3715.0,
   "fifty_two_week_low": 2322.5,
-  "_market_data_updated": "2026-04-17T09:13:44.727114+00:00"
+  "_market_data_updated": "2026-04-20T09:56:35.291282+00:00"
 }
