@@ -5,16 +5,16 @@
   "industry": "Furnishings, Fixtures & Appliances",
   "currency": "JPY",
   "price": 3606.0,
-  "market_cap": 497904484352.0,
-  "per": 15.187634,
+  "market_cap": 497900552192.0,
+  "per": 15.197876,
   "forward_per": 15.799851,
   "pbr": 1.216775,
-  "psr": 1.0652847,
+  "psr": 1.0652763,
   "roe": 0.09237,
   "roa": 0.05111,
   "profit_margin": 0.0735,
   "operating_margin": 0.11663,
-  "dividend_yield": 0.0282,
+  "dividend_yield": 0.0277,
   "dividend_yield_trailing": 0.025359256,
   "payout_ratio": 0.379,
   "revenue_growth": null,
@@ -25,5 +25,5 @@
   "beta": 0.466,
   "fifty_two_week_high": 4456.0,
   "fifty_two_week_low": 3171.0,
-  "_market_data_updated": "2026-04-28T10:10:14.881971+00:00"
+  "_market_data_updated": "2026-04-29T10:02:10.349379+00:00"
 }
