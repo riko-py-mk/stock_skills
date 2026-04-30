@@ -4,12 +4,12 @@
   "sector": "Real Estate",
   "industry": "REIT - Retail",
   "currency": "JPY",
-  "price": 115400.0,
-  "market_cap": 830050140160.0,
-  "per": 18.281536,
-  "forward_per": 22.32536,
-  "pbr": 0.69204926,
-  "psr": 8.1858225,
+  "price": 115800.0,
+  "market_cap": 832927301632.0,
+  "per": 18.344904,
+  "forward_per": 22.402744,
+  "pbr": 0.694448,
+  "psr": 8.214196,
   "roe": 0.06978,
   "roa": 0.023699999,
   "profit_margin": 0.44765,
@@ -24,6 +24,6 @@
   "free_cashflow": 43895619584.0,
   "beta": 0.178,
   "fifty_two_week_high": 128000.0,
-  "fifty_two_week_low": 93700.0,
-  "_market_data_updated": "2026-04-29T10:03:19.766423+00:00"
+  "fifty_two_week_low": 95100.0,
+  "_market_data_updated": "2026-04-30T10:04:12.603416+00:00"
 }
