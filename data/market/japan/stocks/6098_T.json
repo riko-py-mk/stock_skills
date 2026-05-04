@@ -6,7 +6,7 @@
   "currency": "JPY",
   "price": 7361.0,
   "market_cap": 10277526437888.0,
-  "per": 24.765333,
+  "per": 24.752842,
   "forward_per": 24.323431,
   "pbr": 6.6341553,
   "psr": 2.856014,
@@ -22,8 +22,8 @@
   "debt_to_equity": 11.883,
   "current_ratio": 1.728,
   "free_cashflow": 416181747712.0,
-  "beta": 0.809,
+  "beta": 0.86,
   "fifty_two_week_high": 9563.0,
   "fifty_two_week_low": 6040.0,
-  "_market_data_updated": "2026-05-01T09:29:59.532900+00:00"
+  "_market_data_updated": "2026-05-04T10:09:45.090504+00:00"
 }
