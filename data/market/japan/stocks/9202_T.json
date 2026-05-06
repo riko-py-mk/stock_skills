@@ -8,7 +8,7 @@
   "market_cap": 1228917702656.0,
   "per": 8.438707,
   "forward_per": 5.5638833,
-  "pbr": 0.8771791,
+  "pbr": 0.8240642,
   "psr": 0.483972,
   "roe": 0.1294,
   "roa": 0.03588,
@@ -25,5 +25,5 @@
   "beta": 0.443,
   "fifty_two_week_high": 3419.0,
   "fifty_two_week_low": 2582.0,
-  "_market_data_updated": "2026-05-05T09:59:59.215407+00:00"
+  "_market_data_updated": "2026-05-06T10:14:54.606313+00:00"
 }
