@@ -4,12 +4,12 @@
   "sector": "Utilities",
   "industry": "Utilities - Independent Power Producers",
   "currency": "JPY",
-  "price": 1708.5,
-  "market_cap": 807749681152.0,
-  "per": 5.4288077,
-  "forward_per": 10.429767,
-  "pbr": 0.7161012,
-  "psr": 0.35944495,
+  "price": 1746.5,
+  "market_cap": 825715392512.0,
+  "per": 5.549554,
+  "forward_per": 10.661742,
+  "pbr": 0.6922474,
+  "psr": 0.3674396,
   "roe": 0.13781,
   "roa": 0.02391,
   "profit_margin": 0.06877,
@@ -25,5 +25,5 @@
   "beta": 0.211,
   "fifty_two_week_high": 2017.5,
   "fifty_two_week_low": 1173.0,
-  "_market_data_updated": "2026-05-06T10:15:00.948031+00:00"
+  "_market_data_updated": "2026-05-07T10:21:36.226141+00:00"
 }

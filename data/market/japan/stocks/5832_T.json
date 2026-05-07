@@ -4,12 +4,12 @@
   "sector": "Financial Services",
   "industry": "Banks - Regional",
   "currency": "JPY",
-  "price": 2845.5,
-  "market_cap": 505833783296.0,
-  "per": 16.86322,
-  "forward_per": 19.135845,
-  "pbr": 0.8283797,
-  "psr": 3.054515,
+  "price": 2947.0,
+  "market_cap": 523877056512.0,
+  "per": 17.464739,
+  "forward_per": 19.818426,
+  "pbr": 0.8579283,
+  "psr": 3.1634705,
   "roe": 0.068280004,
   "roa": 0.00354,
   "profit_margin": 0.23976,
@@ -24,6 +24,6 @@
   "free_cashflow": null,
   "beta": 0.181,
   "fifty_two_week_high": 3485.0,
-  "fifty_two_week_low": 1470.0,
-  "_market_data_updated": "2026-05-06T10:13:32.995821+00:00"
+  "fifty_two_week_low": 1494.0,
+  "_market_data_updated": "2026-05-07T10:20:06.008967+00:00"
 }
