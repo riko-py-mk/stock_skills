@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Packaging & Containers",
   "currency": "JPY",
-  "price": 3531.0,
-  "market_cap": 530961793024.0,
-  "per": 12.422164,
-  "forward_per": -33.789474,
-  "pbr": 0.79772836,
-  "psr": 0.56165093,
+  "price": 3388.0,
+  "market_cap": 509458644992.0,
+  "per": 11.9190855,
+  "forward_per": -32.42105,
+  "pbr": 0.76542157,
+  "psr": 0.5389049,
   "roe": 0.06928,
   "roa": 0.02286,
   "profit_margin": 0.04815,
@@ -25,5 +25,5 @@
   "beta": -0.078,
   "fifty_two_week_high": 4173.0,
   "fifty_two_week_low": 2512.5,
-  "_market_data_updated": "2026-05-08T09:12:49.402326+00:00"
+  "_market_data_updated": "2026-05-11T10:57:38.414298+00:00"
 }
