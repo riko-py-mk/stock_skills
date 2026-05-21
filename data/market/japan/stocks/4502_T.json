@@ -4,12 +4,12 @@
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
   "currency": "JPY",
-  "price": 5255.0,
-  "market_cap": 8302042284032.0,
-  "per": 43.861115,
-  "forward_per": 37.431442,
-  "pbr": 1.0679803,
-  "psr": 1.8425561,
+  "price": 5180.0,
+  "market_cap": 8183554768896.0,
+  "per": 43.235123,
+  "forward_per": 36.897217,
+  "pbr": 1.052738,
+  "psr": 1.816259,
   "roe": 0.02611,
   "roa": 0.02632,
   "profit_margin": 0.04256,
@@ -25,5 +25,5 @@
   "beta": 0.098,
   "fifty_two_week_high": 6033.0,
   "fifty_two_week_low": 4102.0,
-  "_market_data_updated": "2026-05-20T10:46:07.486856+00:00"
+  "_market_data_updated": "2026-05-21T11:17:33.329466+00:00"
 }
