@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Tools & Accessories",
   "currency": "JPY",
-  "price": 5652.0,
-  "market_cap": 1456271785984.0,
-  "per": 18.832468,
-  "forward_per": 22.969072,
-  "pbr": 1.4644563,
-  "psr": 1.8727776,
+  "price": 5716.0,
+  "market_cap": 1472761823232.0,
+  "per": 19.045715,
+  "forward_per": 23.229162,
+  "pbr": 1.4810389,
+  "psr": 1.8939838,
   "roe": 0.08202,
   "roa": 0.057210002,
   "profit_margin": 0.10213,
@@ -25,5 +25,5 @@
   "beta": 0.813,
   "fifty_two_week_high": 6130.0,
   "fifty_two_week_low": 4175.0,
-  "_market_data_updated": "2026-05-21T11:18:14.725108+00:00"
+  "_market_data_updated": "2026-05-22T10:46:20.260903+00:00"
 }
