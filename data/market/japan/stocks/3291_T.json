@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Residential Construction",
   "currency": "JPY",
-  "price": 2104.5,
-  "market_cap": 581536972800.0,
-  "per": 9.188752,
-  "forward_per": 10.241374,
-  "pbr": 0.569596,
-  "psr": 0.38541377,
+  "price": 2122.0,
+  "market_cap": 586372743168.0,
+  "per": 9.259098,
+  "forward_per": 10.326536,
+  "pbr": 0.5743325,
+  "psr": 0.38861868,
   "roe": 0.06151,
   "roa": 0.03056,
   "profit_margin": 0.04196,
@@ -25,5 +25,5 @@
   "beta": 0.54,
   "fifty_two_week_high": 2794.0,
   "fifty_two_week_low": 1966.0,
-  "_market_data_updated": "2026-05-27T11:33:25.476995+00:00"
+  "_market_data_updated": "2026-05-28T11:33:13.009949+00:00"
 }
