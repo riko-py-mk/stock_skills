@@ -4,12 +4,12 @@
   "sector": "Communication Services",
   "industry": "Broadcasting",
   "currency": "JPY",
-  "price": 5801.0,
-  "market_cap": 909585940480.0,
-  "per": 21.247528,
-  "forward_per": 26.87639,
-  "pbr": 0.806625,
-  "psr": 2.1409578,
+  "price": 5637.0,
+  "market_cap": 883871055872.0,
+  "per": 20.63097,
+  "forward_per": 26.116568,
+  "pbr": 0.7838209,
+  "psr": 2.080431,
   "roe": 0.05069,
   "roa": 0.01058,
   "profit_margin": 0.122930005,
@@ -25,5 +25,5 @@
   "beta": 0.275,
   "fifty_two_week_high": 6402.0,
   "fifty_two_week_low": 4411.0,
-  "_market_data_updated": "2026-06-01T13:34:43.841937+00:00"
+  "_market_data_updated": "2026-06-02T12:03:30.834266+00:00"
 }
