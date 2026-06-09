@@ -4,12 +4,12 @@
   "sector": "Healthcare",
   "industry": "Medical Distribution",
   "currency": "JPY",
-  "price": 2673.5,
-  "market_cap": 547261808640.0,
-  "per": 12.941717,
-  "forward_per": 15.500348,
-  "pbr": 0.8392195,
-  "psr": 0.14336155,
+  "price": 2629.5,
+  "market_cap": 538255065088.0,
+  "per": 12.723797,
+  "forward_per": 15.245246,
+  "pbr": 0.8254078,
+  "psr": 0.14100213,
   "roe": 0.06842,
   "roa": 0.01774,
   "profit_margin": 0.01114,
@@ -24,6 +24,6 @@
   "free_cashflow": 49718874112.0,
   "beta": -0.035,
   "fifty_two_week_high": 3070.0,
-  "fifty_two_week_low": 2285.0,
-  "_market_data_updated": "2026-06-08T12:25:26.692421+00:00"
+  "fifty_two_week_low": 2300.0,
+  "_market_data_updated": "2026-06-09T10:57:43.404146+00:00"
 }
