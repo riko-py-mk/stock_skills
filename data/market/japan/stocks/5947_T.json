@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Furnishings, Fixtures & Appliances",
   "currency": "JPY",
-  "price": 3536.0,
-  "market_cap": 488223965184.0,
-  "per": 13.605233,
-  "forward_per": 15.493143,
-  "pbr": 1.1165736,
-  "psr": 1.0379087,
+  "price": 3483.0,
+  "market_cap": 480906117120.0,
+  "per": 13.401308,
+  "forward_per": 15.2609215,
+  "pbr": 1.0998377,
+  "psr": 1.0223517,
   "roe": 0.09062,
   "roa": 0.050040003,
   "profit_margin": 0.076869994,
@@ -25,5 +25,5 @@
   "beta": 0.456,
   "fifty_two_week_high": 4456.0,
   "fifty_two_week_low": 3211.0,
-  "_market_data_updated": "2026-06-11T12:07:07.987710+00:00"
+  "_market_data_updated": "2026-06-12T11:41:38.802493+00:00"
 }
