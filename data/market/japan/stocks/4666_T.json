@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Infrastructure Operations",
   "currency": "JPY",
-  "price": 2162.5,
-  "market_cap": 369064935424.0,
-  "per": 25.378477,
-  "forward_per": 15.253579,
-  "pbr": 5.195607,
-  "psr": 0.88834983,
+  "price": 2118.0,
+  "market_cap": 361608609792.0,
+  "per": 9.677861,
+  "forward_per": 14.939691,
+  "pbr": 5.0886917,
+  "psr": 0.8704022,
   "roe": 0.21389,
   "roa": 0.07712,
   "profit_margin": 0.03983,
@@ -25,5 +25,5 @@
   "beta": 0.325,
   "fifty_two_week_high": 2331.0,
   "fifty_two_week_low": 1694.0,
-  "_market_data_updated": "2026-06-16T12:49:10.710937+00:00"
+  "_market_data_updated": "2026-06-17T12:13:05.501187+00:00"
 }
