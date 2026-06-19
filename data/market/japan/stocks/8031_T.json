@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Conglomerates",
   "currency": "JPY",
-  "price": 4719.0,
-  "market_cap": 13374534451200.0,
-  "per": 16.236023,
-  "forward_per": 16.059214,
-  "pbr": 1.5254251,
-  "psr": 0.95565003,
+  "price": 4716.0,
+  "market_cap": 13366031548416.0,
+  "per": 16.225702,
+  "forward_per": 16.049004,
+  "pbr": 1.5244553,
+  "psr": 0.9550425,
   "roe": 0.10301,
   "roa": 0.0159,
   "profit_margin": 0.05959,
@@ -25,5 +25,5 @@
   "beta": 0.423,
   "fifty_two_week_high": 6675.0,
   "fifty_two_week_low": 2844.5,
-  "_market_data_updated": "2026-06-18T11:48:43.306948+00:00"
+  "_market_data_updated": "2026-06-19T12:03:18.279287+00:00"
 }

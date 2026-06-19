@@ -4,12 +4,12 @@
   "sector": "Real Estate",
   "industry": "REIT - Hotel & Motel",
   "currency": "JPY",
-  "price": 77100.0,
-  "market_cap": 455198867456.0,
-  "per": 14.485809,
-  "forward_per": 19.751404,
-  "pbr": 1.3407011,
-  "psr": 9.990209,
+  "price": 77300.0,
+  "market_cap": 456379662336.0,
+  "per": 14.523386,
+  "forward_per": 19.802639,
+  "pbr": 1.3441789,
+  "psr": 10.016123,
   "roe": 0.09417,
   "roa": 0.03633,
   "profit_margin": 0.59575003,
@@ -25,5 +25,5 @@
   "beta": 0.097,
   "fifty_two_week_high": 91600.0,
   "fifty_two_week_low": 74300.0,
-  "_market_data_updated": "2026-06-18T11:49:09.657412+00:00"
+  "_market_data_updated": "2026-06-19T12:03:45.362315+00:00"
 }
