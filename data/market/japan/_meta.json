@@ -1,7 +1,7 @@
 {
-  "_updated": "2026-06-30T10:52:24.544001+00:00",
+  "_updated": "2026-07-01T11:19:08.563874+00:00",
   "region": "japan",
-  "stocks_collected": 228,
+  "stocks_collected": 229,
   "stocks_failed": 2,
   "presets_screened": [
     "value",
@@ -205,6 +205,7 @@
     "8802.T",
     "8804.T",
     "8830.T",
+    "8985.T",
     "9001.T",
     "9005.T",
     "9009.T",
