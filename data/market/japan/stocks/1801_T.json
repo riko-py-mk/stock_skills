@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Engineering & Construction",
   "currency": "JPY",
-  "price": 14050.0,
-  "market_cap": 2290278203392.0,
-  "per": 13.698629,
-  "forward_per": 29.516808,
-  "pbr": 2.4157164,
-  "psr": 1.0963037,
+  "price": 13950.0,
+  "market_cap": 2273977303040.0,
+  "per": 13.6011305,
+  "forward_per": 29.306723,
+  "pbr": 2.3985226,
+  "psr": 1.0885009,
   "roe": 0.18494,
   "roa": 0.045679998,
   "profit_margin": 0.081379995,
@@ -25,5 +25,5 @@
   "beta": 0.556,
   "fifty_two_week_high": 20680.0,
   "fifty_two_week_low": 8381.0,
-  "_market_data_updated": "2026-07-09T10:49:21.052325+00:00"
+  "_market_data_updated": "2026-07-10T10:47:34.195680+00:00"
 }
