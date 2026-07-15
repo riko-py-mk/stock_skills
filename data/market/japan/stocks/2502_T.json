@@ -4,12 +4,12 @@
   "sector": "Consumer Defensive",
   "industry": "Beverages - Brewers",
   "currency": "JPY",
-  "price": 1604.5,
-  "market_cap": 2347170004992.0,
-  "per": 19.759853,
-  "forward_per": 11.214789,
-  "pbr": 0.787293,
-  "psr": 0.81085753,
+  "price": 1588.0,
+  "market_cap": 2323032834048.0,
+  "per": 19.55906,
+  "forward_per": 11.099462,
+  "pbr": 0.77919686,
+  "psr": 0.8025191,
   "roe": 0.04321,
   "roa": 0.02032,
   "profit_margin": 0.042,
@@ -25,5 +25,5 @@
   "beta": null,
   "fifty_two_week_high": 2005.5,
   "fifty_two_week_low": 1452.5,
-  "_market_data_updated": "2026-07-14T09:52:09.717314+00:00"
+  "_market_data_updated": "2026-07-15T09:56:17.015268+00:00"
 }
