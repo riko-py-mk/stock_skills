@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Department Stores",
   "currency": "JPY",
-  "price": 4025.0,
-  "market_cap": 1403733934080.0,
-  "per": 18.832172,
-  "forward_per": 24.92723,
-  "pbr": 2.2798228,
-  "psr": 2.5727036,
+  "price": 3992.0,
+  "market_cap": 1392225026048.0,
+  "per": 18.67777,
+  "forward_per": 24.722858,
+  "pbr": 2.261131,
+  "psr": 2.5516105,
   "roe": 0.12443,
   "roa": 0.04127,
   "profit_margin": 0.13947,
@@ -25,5 +25,5 @@
   "beta": 0.145,
   "fifty_two_week_high": 4192.0,
   "fifty_two_week_low": 2054.0,
-  "_market_data_updated": "2026-07-15T09:56:24.420650+00:00"
+  "_market_data_updated": "2026-07-16T10:03:02.573288+00:00"
 }
