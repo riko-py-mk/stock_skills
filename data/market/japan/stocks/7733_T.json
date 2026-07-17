@@ -4,12 +4,12 @@
   "sector": "Healthcare",
   "industry": "Medical Devices",
   "currency": "JPY",
-  "price": 1747.0,
-  "market_cap": 1856745897984.0,
-  "per": 28.569092,
-  "forward_per": 13.904807,
-  "pbr": 2.368881,
-  "psr": 1.8371327,
+  "price": 1771.5,
+  "market_cap": 1882785054720.0,
+  "per": 28.969746,
+  "forward_per": 14.099809,
+  "pbr": 2.4021022,
+  "psr": 1.8628968,
   "roe": 0.08719,
   "roa": 0.05752,
   "profit_margin": 0.06745,
@@ -25,5 +25,5 @@
   "beta": 0.203,
   "fifty_two_week_high": 2168.0,
   "fifty_two_week_low": 1302.5,
-  "_market_data_updated": "2026-07-16T10:04:23.781856+00:00"
+  "_market_data_updated": "2026-07-17T09:53:27.635497+00:00"
 }

@@ -4,12 +4,12 @@
   "sector": "Healthcare",
   "industry": "Pharmaceutical Retailers",
   "currency": "JPY",
-  "price": 2469.5,
-  "market_cap": 971302567936.0,
-  "per": 17.668312,
-  "forward_per": 17.78282,
-  "pbr": 1.80798,
-  "psr": 0.8692212,
+  "price": 2532.0,
+  "market_cap": 995885056000.0,
+  "per": 18.115475,
+  "forward_per": 18.23288,
+  "pbr": 1.8537377,
+  "psr": 0.8912201,
   "roe": 0.10526,
   "roa": 0.07229,
   "profit_margin": 0.04991,
@@ -25,5 +25,5 @@
   "beta": -0.199,
   "fifty_two_week_high": 3393.0,
   "fifty_two_week_low": 2171.5,
-  "_market_data_updated": "2026-07-16T10:03:01.961303+00:00"
+  "_market_data_updated": "2026-07-17T09:52:04.263672+00:00"
 }
