@@ -6,7 +6,7 @@
   "currency": "JPY",
   "price": 3262.0,
   "market_cap": 2294810673152.0,
-  "per": 31.614655,
+  "per": 31.645323,
   "forward_per": 10.99946,
   "pbr": 5.5025134,
   "psr": 1.7550328,
@@ -14,7 +14,7 @@
   "roa": 0.03887,
   "profit_margin": 0.05546,
   "operating_margin": 0.08007,
-  "dividend_yield": 0.63,
+  "dividend_yield": 0.67,
   "dividend_yield_trailing": 0.006044905,
   "payout_ratio": 0.2038,
   "revenue_growth": 0.122,
@@ -24,6 +24,6 @@
   "free_cashflow": 5090500096.0,
   "beta": 1.167,
   "fifty_two_week_high": 6241.0,
-  "fifty_two_week_low": 744.4,
-  "_market_data_updated": "2026-07-17T09:52:47.607888+00:00"
+  "fifty_two_week_low": 749.1,
+  "_market_data_updated": "2026-07-20T10:46:26.268990+00:00"
 }
