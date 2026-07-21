@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Apparel Retail",
   "currency": "JPY",
-  "price": 78840.0,
-  "market_cap": 24192133103616.0,
-  "per": 50.505116,
-  "forward_per": 57.6,
-  "pbr": 8.866651,
-  "psr": 6.2852826,
+  "price": 80840.0,
+  "market_cap": 24805835276288.0,
+  "per": 51.78632,
+  "forward_per": 59.061188,
+  "pbr": 9.0915785,
+  "psr": 6.4447265,
   "roe": 0.22481,
   "roa": 0.1092,
   "profit_margin": 0.1351,
@@ -25,5 +25,5 @@
   "beta": 0.466,
   "fifty_two_week_high": 88690.0,
   "fifty_two_week_low": 43970.0,
-  "_market_data_updated": "2026-07-20T10:48:07.178620+00:00"
+  "_market_data_updated": "2026-07-21T10:23:19.446762+00:00"
 }
