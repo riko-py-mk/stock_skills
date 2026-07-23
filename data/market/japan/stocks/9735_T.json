@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Security & Protection Services",
   "currency": "JPY",
-  "price": 6735.0,
-  "market_cap": 2700330139648.0,
-  "per": 24.389801,
-  "forward_per": 28.36506,
-  "pbr": 2.0722127,
-  "psr": 2.1484118,
+  "price": 6682.0,
+  "market_cap": 2679080222720.0,
+  "per": 24.19787,
+  "forward_per": 28.141846,
+  "pbr": 2.0559058,
+  "psr": 2.1315053,
   "roe": 0.08692,
   "roa": 0.04573,
   "profit_margin": 0.08964,
@@ -25,5 +25,5 @@
   "beta": 0.066,
   "fifty_two_week_high": 6835.0,
   "fifty_two_week_low": 5065.0,
-  "_market_data_updated": "2026-07-22T10:22:37.310274+00:00"
+  "_market_data_updated": "2026-07-23T10:17:27.422926+00:00"
 }
