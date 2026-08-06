@@ -4,12 +4,12 @@
   "sector": "Real Estate",
   "industry": "Real Estate - Diversified",
   "currency": "JPY",
-  "price": 1285.0,
-  "market_cap": 915863437312.0,
-  "per": 9.5603,
-  "forward_per": 11.824791,
-  "pbr": 1.0198025,
-  "psr": 0.73501456,
+  "price": 1290.5,
+  "market_cap": 919783473152.0,
+  "per": 9.528204,
+  "forward_per": 11.875402,
+  "pbr": 1.0241673,
+  "psr": 0.73816055,
   "roe": 0.11193,
   "roa": 0.03126,
   "profit_margin": 0.0776,
@@ -24,6 +24,6 @@
   "free_cashflow": -14160624640.0,
   "beta": 0.315,
   "fifty_two_week_high": 1598.0,
-  "fifty_two_week_low": 1111.5,
-  "_market_data_updated": "2026-08-05T10:29:33.668343+00:00"
+  "fifty_two_week_low": 1117.0,
+  "_market_data_updated": "2026-08-06T10:33:18.777269+00:00"
 }
