@@ -5,16 +5,16 @@
   "industry": "Specialty Chemicals",
   "currency": "JPY",
   "price": 1238.5,
-  "market_cap": 2872649449472.0,
-  "per": 19.664972,
+  "market_cap": 2872652070912.0,
+  "per": 19.683725,
   "forward_per": 20.878288,
-  "pbr": 1.5099552,
-  "psr": 1.4765717,
+  "pbr": 1.4349322,
+  "psr": 1.476573,
   "roe": 0.11344,
   "roa": 0.04517,
   "profit_margin": 0.10303,
   "operating_margin": 0.15254,
-  "dividend_yield": 0.013500000000000002,
+  "dividend_yield": 0.0137,
   "dividend_yield_trailing": 0.012703454,
   "payout_ratio": 0.2543,
   "revenue_growth": null,
@@ -25,5 +25,5 @@
   "beta": 0.822,
   "fifty_two_week_high": 1282.5,
   "fifty_two_week_low": 949.6,
-  "_market_data_updated": "2026-08-10T09:13:19.745444+00:00"
+  "_market_data_updated": "2026-08-11T08:48:08.552058+00:00"
 }

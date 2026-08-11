@@ -5,16 +5,16 @@
   "industry": "Medical Instruments & Supplies",
   "currency": "JPY",
   "price": 2575.5,
-  "market_cap": 3799076306944.0,
-  "per": 27.973282,
+  "market_cap": 3799123755008.0,
+  "per": 27.93384,
   "forward_per": 25.292152,
   "pbr": 2.2858427,
-  "psr": 3.2094328,
+  "psr": 3.2094731,
   "roe": 0.10854,
   "roa": 0.06922,
   "profit_margin": 0.13897,
   "operating_margin": 0.28698,
-  "dividend_yield": 0.0152,
+  "dividend_yield": 0.013999999999999999,
   "dividend_yield_trailing": 0.012642225,
   "payout_ratio": 0.32569999,
   "revenue_growth": 0.199,
@@ -25,5 +25,5 @@
   "beta": 0.225,
   "fifty_two_week_high": 2818.0,
   "fifty_two_week_low": 1900.0,
-  "_market_data_updated": "2026-08-10T09:13:17.829791+00:00"
+  "_market_data_updated": "2026-08-11T08:48:06.570455+00:00"
 }

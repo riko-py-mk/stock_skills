@@ -5,16 +5,16 @@
   "industry": "Packaged Foods",
   "currency": "JPY",
   "price": 2980.0,
-  "market_cap": 855433740288.0,
-  "per": 19.06224,
+  "market_cap": 854002696192.0,
+  "per": 19.084215,
   "forward_per": 14.406574,
   "pbr": 1.6264085,
-  "psr": 1.0616417,
+  "psr": 1.0598657,
   "roe": 0.09625,
   "roa": 0.03425,
   "profit_margin": 0.058870003,
   "operating_margin": 0.07285,
-  "dividend_yield": 0.023799999999999998,
+  "dividend_yield": 0.0235,
   "dividend_yield_trailing": 0.023821678,
   "payout_ratio": 0.44799998,
   "revenue_growth": 0.1,
@@ -25,5 +25,5 @@
   "beta": -0.028,
   "fifty_two_week_high": 3354.0,
   "fifty_two_week_low": 2527.0,
-  "_market_data_updated": "2026-08-10T09:12:55.944511+00:00"
+  "_market_data_updated": "2026-08-11T08:47:44.738152+00:00"
 }

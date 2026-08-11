@@ -5,16 +5,16 @@
   "industry": "Conglomerates",
   "currency": "JPY",
   "price": 2208.5,
-  "market_cap": 508343812096.0,
-  "per": 10.663416,
+  "market_cap": 508342075392.0,
+  "per": 10.660842,
   "forward_per": 3.2122233,
   "pbr": 1.0681498,
-  "psr": 0.5433775,
+  "psr": 0.5433757,
   "roe": 0.17326,
   "roa": 0.03197,
   "profit_margin": 0.07979,
   "operating_margin": 0.057490002,
-  "dividend_yield": 0.021099999999999997,
+  "dividend_yield": 0.0213,
   "dividend_yield_trailing": 0.021104624,
   "payout_ratio": 0.22690001,
   "revenue_growth": 0.131,
@@ -25,5 +25,5 @@
   "beta": 0.317,
   "fifty_two_week_high": 2292.5,
   "fifty_two_week_low": 1540.0,
-  "_market_data_updated": "2026-08-10T09:14:31.159752+00:00"
+  "_market_data_updated": "2026-08-11T08:49:22.083263+00:00"
 }

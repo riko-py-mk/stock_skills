@@ -5,16 +5,16 @@
   "industry": "Marine Shipping",
   "currency": "JPY",
   "price": 6279.0,
-  "market_cap": 2157564919808.0,
-  "per": 10.1300335,
+  "market_cap": 2157591003136.0,
+  "per": 10.131668,
   "forward_per": 11.159294,
   "pbr": 0.7505777,
-  "psr": 1.0160989,
+  "psr": 1.0161111,
   "roe": 0.07892,
   "roa": 0.01354,
   "profit_margin": 0.10431,
   "operating_margin": 0.05269,
-  "dividend_yield": 0.0331,
+  "dividend_yield": 0.0326,
   "dividend_yield_trailing": 0.03233107,
   "payout_ratio": 0.3227,
   "revenue_growth": 0.689,
@@ -25,5 +25,5 @@
   "beta": 0.683,
   "fifty_two_week_high": 7325.0,
   "fifty_two_week_low": 4293.0,
-  "_market_data_updated": "2026-08-10T09:15:00.446412+00:00"
+  "_market_data_updated": "2026-08-11T08:49:52.388971+00:00"
 }

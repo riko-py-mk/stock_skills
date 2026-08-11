@@ -5,16 +5,16 @@
   "industry": "Internet Retail",
   "currency": "JPY",
   "price": 488.3,
-  "market_cap": 3349333409792.0,
-  "per": 17.52692,
+  "market_cap": 3350872981504.0,
+  "per": 17.545813,
   "forward_per": 22.796452,
-  "pbr": 1.1146289,
-  "psr": 1.5943725,
+  "pbr": 1.1146901,
+  "psr": 1.5951054,
   "roe": 0.08316,
   "roa": 0.01741,
   "profit_margin": 0.09665,
   "operating_margin": 0.18263,
-  "dividend_yield": 0.0227,
+  "dividend_yield": 0.0225,
   "dividend_yield_trailing": 0.01509512,
   "payout_ratio": 0.26209998,
   "revenue_growth": 0.131,
@@ -25,5 +25,5 @@
   "beta": 0.591,
   "fifty_two_week_high": 506.2,
   "fifty_two_week_low": 365.1,
-  "_market_data_updated": "2026-08-10T09:13:23.000308+00:00"
+  "_market_data_updated": "2026-08-11T08:48:11.247150+00:00"
 }

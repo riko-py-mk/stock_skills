@@ -5,16 +5,16 @@
   "industry": "Oil & Gas Refining & Marketing",
   "currency": "JPY",
   "price": 1294.5,
-  "market_cap": 1551394537472.0,
-  "per": 9.218772,
+  "market_cap": 1551603728384.0,
+  "per": 9.225342,
   "forward_per": 9.837374,
-  "pbr": 0.9519236,
-  "psr": 0.18162136,
+  "pbr": 0.9423084,
+  "psr": 0.18164584,
   "roe": 0.22516,
   "roa": 0.06471,
   "profit_margin": 0.04239,
   "operating_margin": 0.13534,
-  "dividend_yield": 0.0273,
+  "dividend_yield": 0.0278,
   "dividend_yield_trailing": 0.027252082,
   "payout_ratio": 0.2564,
   "revenue_growth": 0.233,
@@ -25,5 +25,5 @@
   "beta": 0.282,
   "fifty_two_week_high": 1671.0,
   "fifty_two_week_low": 946.1,
-  "_market_data_updated": "2026-08-10T09:13:25.562965+00:00"
+  "_market_data_updated": "2026-08-11T08:48:13.944550+00:00"
 }

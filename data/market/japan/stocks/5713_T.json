@@ -5,16 +5,16 @@
   "industry": "Other Industrial Metals & Mining",
   "currency": "JPY",
   "price": 10065.0,
-  "market_cap": 2702282326016.0,
-  "per": 15.491051,
+  "market_cap": 2702328725504.0,
+  "per": 15.503936,
   "forward_per": 24.752232,
   "pbr": 1.3124335,
-  "psr": 1.5516214,
+  "psr": 1.5516481,
   "roe": 0.08695,
   "roa": 0.03471,
   "profit_margin": 0.10122,
   "operating_margin": 0.14435,
-  "dividend_yield": 0.0231,
+  "dividend_yield": 0.0207,
   "dividend_yield_trailing": 0.025336148,
   "payout_ratio": 0.35099998,
   "revenue_growth": 0.225,
@@ -25,5 +25,5 @@
   "beta": 1.279,
   "fifty_two_week_high": 13300.0,
   "fifty_two_week_low": 3563.0,
-  "_market_data_updated": "2026-08-10T09:13:37.149537+00:00"
+  "_market_data_updated": "2026-08-11T08:48:25.189347+00:00"
 }

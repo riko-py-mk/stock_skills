@@ -5,16 +5,16 @@
   "industry": "Credit Services",
   "currency": "JPY",
   "price": 4648.0,
-  "market_cap": 667565490176.0,
-  "per": 10.945742,
+  "market_cap": 667795193856.0,
+  "per": 10.940847,
   "forward_per": 13.795969,
   "pbr": 0.8776435,
-  "psr": 1.2220453,
+  "psr": 1.2224659,
   "roe": 0.083730005,
   "roa": 0.01115,
   "profit_margin": 0.113000005,
   "operating_margin": -0.16344,
-  "dividend_yield": 0.0338,
+  "dividend_yield": 0.0344,
   "dividend_yield_trailing": 0.027460922,
   "payout_ratio": 0.3062,
   "revenue_growth": 0.088,
@@ -25,5 +25,5 @@
   "beta": 0.48,
   "fifty_two_week_high": 4940.0,
   "fifty_two_week_low": 3561.0,
-  "_market_data_updated": "2026-08-10T09:14:32.466548+00:00"
+  "_market_data_updated": "2026-08-11T08:49:23.390947+00:00"
 }

@@ -5,16 +5,16 @@
   "industry": "Auto Parts",
   "currency": "JPY",
   "price": 9685.0,
-  "market_cap": 1888517619712.0,
-  "per": 16.97485,
+  "market_cap": 1885185900544.0,
+  "per": 16.977823,
   "forward_per": 19.967014,
   "pbr": 2.2310793,
-  "psr": 2.4686987,
+  "psr": 2.4643435,
   "roe": 0.24791999,
   "roa": 0.07361,
   "profit_margin": 0.24330999,
   "operating_margin": 0.2013,
-  "dividend_yield": 0.010700000000000001,
+  "dividend_yield": 0.0108,
   "dividend_yield_trailing": 0.020839687,
   "payout_ratio": 0.35939997,
   "revenue_growth": 0.199,
@@ -25,5 +25,5 @@
   "beta": 0.269,
   "fifty_two_week_high": 11265.0,
   "fifty_two_week_low": 5088.0,
-  "_market_data_updated": "2026-08-10T09:13:31.356541+00:00"
+  "_market_data_updated": "2026-08-11T08:48:19.268731+00:00"
 }

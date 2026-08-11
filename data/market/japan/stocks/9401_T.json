@@ -5,16 +5,16 @@
   "industry": "Broadcasting",
   "currency": "JPY",
   "price": 5710.0,
-  "market_cap": 876080529408.0,
-  "per": 17.234613,
+  "market_cap": 878543699968.0,
+  "per": 17.241379,
   "forward_per": 26.454782,
-  "pbr": 0.7939195,
-  "psr": 2.0391228,
+  "pbr": 0.5472738,
+  "psr": 2.0448558,
   "roe": 0.03711,
   "roa": 0.0070999996,
   "profit_margin": 0.11408,
   "operating_margin": 0.04384,
-  "dividend_yield": 0.0171,
+  "dividend_yield": 0.0175,
   "dividend_yield_trailing": 0.014400823,
   "payout_ratio": 0.2535,
   "revenue_growth": 0.048,
@@ -25,5 +25,5 @@
   "beta": null,
   "fifty_two_week_high": 6634.0,
   "fifty_two_week_low": 5060.0,
-  "_market_data_updated": "2026-08-10T09:15:04.929553+00:00"
+  "_market_data_updated": "2026-08-11T08:49:56.992871+00:00"
 }
