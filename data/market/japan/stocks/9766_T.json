@@ -4,12 +4,12 @@
   "sector": "Communication Services",
   "industry": "Electronic Gaming & Multimedia",
   "currency": "JPY",
-  "price": 21660.0,
-  "market_cap": 2936153309184.0,
-  "per": 26.041792,
-  "forward_per": 36.001595,
-  "pbr": 5.0642633,
-  "psr": 5.5795264,
+  "price": 21235.0,
+  "market_cap": 2878541922304.0,
+  "per": 25.530815,
+  "forward_per": 35.295193,
+  "pbr": 4.9648952,
+  "psr": 5.4700484,
   "roe": 0.21156,
   "roa": 0.14449,
   "profit_margin": 0.21426001,
@@ -25,5 +25,5 @@
   "beta": 0.401,
   "fifty_two_week_high": 26645.0,
   "fifty_two_week_low": 16850.0,
-  "_market_data_updated": "2026-08-12T09:09:28.341530+00:00"
+  "_market_data_updated": "2026-08-13T09:08:36.726856+00:00"
 }
