@@ -4,12 +4,12 @@
   "sector": "Financial Services",
   "industry": "Insurance - Property & Casualty",
   "currency": "JPY",
-  "price": 7622.0,
-  "market_cap": 14480037642240.0,
-  "per": 27.315079,
-  "forward_per": 15.45982,
-  "pbr": 1.799752,
-  "psr": 1.7861923,
+  "price": 7540.0,
+  "market_cap": 14324256997376.0,
+  "per": 27.027996,
+  "forward_per": 15.293497,
+  "pbr": 1.747641,
+  "psr": 1.7669759,
   "roe": 0.086990006,
   "roa": 0.01516,
   "profit_margin": 0.06553,
@@ -25,5 +25,5 @@
   "beta": -0.162,
   "fifty_two_week_high": 8468.0,
   "fifty_two_week_low": 5300.0,
-  "_market_data_updated": "2026-08-13T09:08:08.998470+00:00"
+  "_market_data_updated": "2026-08-14T09:04:29.973500+00:00"
 }
