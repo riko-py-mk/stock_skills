@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Railroads",
   "currency": "JPY",
-  "price": 1280.0,
-  "market_cap": 617266216960.0,
-  "per": 12.853987,
-  "forward_per": 3.883731,
-  "pbr": 1.097056,
-  "psr": 1.8385848,
+  "price": 1289.5,
+  "market_cap": 621847511040.0,
+  "per": 12.949388,
+  "forward_per": 3.9125555,
+  "pbr": 1.1051983,
+  "psr": 1.8522305,
   "roe": 0.094160005,
   "roa": 0.01949,
   "profit_margin": 0.15107,
@@ -25,5 +25,5 @@
   "beta": 0.191,
   "fifty_two_week_high": 1451.0,
   "fifty_two_week_low": 1033.0,
-  "_market_data_updated": "2026-08-17T08:37:58.785898+00:00"
+  "_market_data_updated": "2026-08-18T08:31:07.474771+00:00"
 }

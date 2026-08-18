@@ -4,12 +4,12 @@
   "sector": "Energy",
   "industry": "Oil & Gas E&P",
   "currency": "JPY",
-  "price": 1820.0,
-  "market_cap": 465918722048.0,
-  "per": 8.718563,
-  "forward_per": 12.070566,
-  "pbr": 0.7877939,
-  "psr": 1.4442345,
+  "price": 1873.0,
+  "market_cap": 479486672896.0,
+  "per": 8.972455,
+  "forward_per": 12.422072,
+  "pbr": 0.8107351,
+  "psr": 1.4862919,
   "roe": 0.07475,
   "roa": 0.0231,
   "profit_margin": 0.12694,
@@ -25,5 +25,5 @@
   "beta": 0.158,
   "fifty_two_week_high": 2819.0,
   "fifty_two_week_low": 1144.0,
-  "_market_data_updated": "2026-08-17T08:35:41.099271+00:00"
+  "_market_data_updated": "2026-08-18T08:28:51.289052+00:00"
 }
