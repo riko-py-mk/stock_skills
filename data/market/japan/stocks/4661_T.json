@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Leisure",
   "currency": "JPY",
-  "price": 3000.0,
-  "market_cap": 4919149985792.0,
-  "per": 40.32258,
-  "forward_per": 34.305317,
-  "pbr": 4.3606997,
-  "psr": 6.8177314,
+  "price": 3037.0,
+  "market_cap": 4979819544576.0,
+  "per": 40.819893,
+  "forward_per": 34.728416,
+  "pbr": 4.4144816,
+  "psr": 6.901817,
   "roe": null,
   "roa": null,
   "profit_margin": 0.18807,
@@ -25,5 +25,5 @@
   "beta": 0.313,
   "fifty_two_week_high": 3715.0,
   "fifty_two_week_low": 2103.0,
-  "_market_data_updated": "2026-08-25T08:35:25.710678+00:00"
+  "_market_data_updated": "2026-08-26T08:36:34.294600+00:00"
 }
