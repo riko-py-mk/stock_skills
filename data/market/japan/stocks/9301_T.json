@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Integrated Freight & Logistics",
   "currency": "JPY",
-  "price": 1521.0,
-  "market_cap": 516802740224.0,
-  "per": 9.756254,
-  "forward_per": 12.039895,
-  "pbr": 1.3647534,
-  "psr": 1.8761308,
+  "price": 1528.5,
+  "market_cap": 519351074816.0,
+  "per": 9.804362,
+  "forward_per": 12.099263,
+  "pbr": 1.371483,
+  "psr": 1.8853819,
   "roe": 0.11228,
   "roa": 0.01578,
   "profit_margin": 0.15348,
@@ -25,5 +25,5 @@
   "beta": 0.321,
   "fifty_two_week_high": 1651.5,
   "fifty_two_week_low": 1066.5,
-  "_market_data_updated": "2026-08-28T19:52:54.471043+00:00"
+  "_market_data_updated": "2026-08-31T15:47:53.437371+00:00"
 }
