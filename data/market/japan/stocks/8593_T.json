@@ -4,12 +4,12 @@
   "sector": "Financial Services",
   "industry": "Credit Services",
   "currency": "JPY",
-  "price": 1390.5,
-  "market_cap": 1993698443264.0,
-  "per": 14.641465,
-  "forward_per": 12.6697035,
-  "pbr": 0.99221426,
-  "psr": 0.918761,
+  "price": 1379.5,
+  "market_cap": 1977926680576.0,
+  "per": 14.52564,
+  "forward_per": 12.569476,
+  "pbr": 0.98436505,
+  "psr": 0.9114928,
   "roe": 0.07201,
   "roa": 0.0114400005,
   "profit_margin": 0.06292,
@@ -25,5 +25,5 @@
   "beta": 0.216,
   "fifty_two_week_high": 1541.5,
   "fifty_two_week_low": 1169.0,
-  "_market_data_updated": "2026-09-08T12:33:48.847495+00:00"
+  "_market_data_updated": "2026-09-09T12:40:30.888409+00:00"
 }

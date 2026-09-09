@@ -4,12 +4,12 @@
   "sector": "Financial Services",
   "industry": "Insurance - Life",
   "currency": "JPY",
-  "price": 1728.5,
-  "market_cap": 1873128325120.0,
-  "per": 11.324772,
-  "forward_per": 7.5473757,
-  "pbr": 0.40166792,
-  "psr": 0.5509525,
+  "price": 1706.5,
+  "market_cap": 1849287507968.0,
+  "per": 11.180633,
+  "forward_per": 7.451314,
+  "pbr": 0.39655557,
+  "psr": 0.54394007,
   "roe": 0.04183,
   "roa": null,
   "profit_margin": 0.0495,
@@ -25,5 +25,5 @@
   "beta": 0.043,
   "fifty_two_week_high": 1797.5,
   "fifty_two_week_low": 1292.3334,
-  "_market_data_updated": "2026-09-08T12:33:08.072633+00:00"
+  "_market_data_updated": "2026-09-09T12:39:46.289415+00:00"
 }
