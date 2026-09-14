@@ -4,12 +4,12 @@
   "sector": "Consumer Defensive",
   "industry": "Beverages - Non-Alcoholic",
   "currency": "JPY",
-  "price": 4456.0,
-  "market_cap": 1376902447104.0,
-  "per": 15.36075,
-  "forward_per": 13.433016,
-  "pbr": 1.0167179,
-  "psr": 0.7611796,
+  "price": 4509.0,
+  "market_cap": 1393279369216.0,
+  "per": 15.543452,
+  "forward_per": 13.592789,
+  "pbr": 1.0288109,
+  "psr": 0.77023315,
   "roe": 0.07988,
   "roa": 0.045890003,
   "profit_margin": 0.049569998,
@@ -25,5 +25,5 @@
   "beta": -0.033,
   "fifty_two_week_high": 5399.0,
   "fifty_two_week_low": 4104.0,
-  "_market_data_updated": "2026-09-11T12:30:32.411090+00:00"
+  "_market_data_updated": "2026-09-14T14:39:04.257748+00:00"
 }
