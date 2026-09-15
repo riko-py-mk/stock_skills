@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Electrical Equipment & Parts",
   "currency": "JPY",
-  "price": 12650.0,
-  "market_cap": 1846788096000.0,
-  "per": 19.011406,
-  "forward_per": 20.825788,
-  "pbr": 2.3353162,
-  "psr": 1.4739661,
+  "price": 12475.0,
+  "market_cap": 1821239672832.0,
+  "per": 18.748404,
+  "forward_per": 20.537685,
+  "pbr": 2.3030095,
+  "psr": 1.4535753,
   "roe": 0.14274,
   "roa": 0.06757,
   "profit_margin": 0.08604,
@@ -25,5 +25,5 @@
   "beta": 0.907,
   "fifty_two_week_high": 17800.0,
   "fifty_two_week_low": 9664.0,
-  "_market_data_updated": "2026-09-14T14:40:13.032141+00:00"
+  "_market_data_updated": "2026-09-15T13:04:46.818669+00:00"
 }
