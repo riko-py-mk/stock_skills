@@ -4,12 +4,12 @@
   "sector": "Financial Services",
   "industry": "Banks - Diversified",
   "currency": "JPY",
-  "price": 6842.0,
-  "market_cap": 25996247957504.0,
-  "per": 15.337368,
-  "forward_per": 21.528587,
-  "pbr": 1.6141852,
-  "psr": 5.5124106,
+  "price": 6878.0,
+  "market_cap": 26133030502400.0,
+  "per": 15.418068,
+  "forward_per": 21.641861,
+  "pbr": 1.6226785,
+  "psr": 5.5414147,
   "roe": 0.08569,
   "roa": 0.00422,
   "profit_margin": 0.27818,
@@ -25,5 +25,5 @@
   "beta": 0.388,
   "fifty_two_week_high": 7260.0,
   "fifty_two_week_low": 3868.0,
-  "_market_data_updated": "2026-09-16T13:02:58.679233+00:00"
+  "_market_data_updated": "2026-09-17T12:59:32.041715+00:00"
 }
