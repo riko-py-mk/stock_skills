@@ -5,16 +5,16 @@
   "industry": "Telecom Services",
   "currency": "JPY",
   "price": 177.3,
-  "market_cap": 14366254563328.0,
-  "per": 14.049129,
+  "market_cap": 14397294510080.0,
+  "per": 14.06027,
   "forward_per": 12.185567,
   "pbr": 1.4644421,
-  "psr": 0.9730078,
+  "psr": 0.97511005,
   "roe": 0.107130006,
   "roa": 0.03076,
   "profit_margin": 0.07126,
   "operating_margin": 0.12453,
-  "dividend_yield": 0.03,
+  "dividend_yield": 0.0305,
   "dividend_yield_trailing": 0.029444445,
   "payout_ratio": 0.42029998,
   "revenue_growth": 0.109,
@@ -25,5 +25,5 @@
   "beta": -0.165,
   "fifty_two_week_high": 180.1,
   "fifty_two_week_low": 142.6,
-  "_market_data_updated": "2026-09-18T12:38:34.830516+00:00"
+  "_market_data_updated": "2026-09-21T14:48:33.945871+00:00"
 }

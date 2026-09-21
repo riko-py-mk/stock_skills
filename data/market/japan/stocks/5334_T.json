@@ -5,11 +5,11 @@
   "industry": "Auto Parts",
   "currency": "JPY",
   "price": 7218.0,
-  "market_cap": 1404984098816.0,
+  "market_cap": 1407467257856.0,
   "per": 12.658273,
   "forward_per": 14.88094,
   "pbr": 1.6627704,
-  "psr": 1.8366165,
+  "psr": 1.8398625,
   "roe": 0.24791999,
   "roa": 0.07361,
   "profit_margin": 0.24330999,
@@ -25,5 +25,5 @@
   "beta": 0.253,
   "fifty_two_week_high": 11265.0,
   "fifty_two_week_low": 5567.0,
-  "_market_data_updated": "2026-09-18T12:37:00.300621+00:00"
+  "_market_data_updated": "2026-09-21T14:46:58.884856+00:00"
 }

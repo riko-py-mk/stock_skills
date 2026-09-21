@@ -5,16 +5,16 @@
   "industry": "Household & Personal Products",
   "currency": "JPY",
   "price": 3561.0,
-  "market_cap": 1423062335488.0,
+  "market_cap": 1423041757184.0,
   "per": null,
   "forward_per": 28.722374,
   "pbr": 2.2353473,
-  "psr": 1.4243072,
+  "psr": 1.4242866,
   "roe": -0.03079,
   "roa": 0.02131,
   "profit_margin": -0.020539999,
   "operating_margin": 0.11083,
-  "dividend_yield": 0.0171,
+  "dividend_yield": 0.0168,
   "dividend_yield_trailing": 0.014228799,
   "payout_ratio": 12.0482,
   "revenue_growth": 0.105,
@@ -25,5 +25,5 @@
   "beta": 0.556,
   "fifty_two_week_high": 3821.0,
   "fifty_two_week_low": 2135.0,
-  "_market_data_updated": "2026-09-18T12:36:52.862463+00:00"
+  "_market_data_updated": "2026-09-21T14:46:51.590374+00:00"
 }
