@@ -5,11 +5,11 @@
   "industry": "Household & Personal Products",
   "currency": "JPY",
   "price": 3561.0,
-  "market_cap": 1423041757184.0,
+  "market_cap": 1423062335488.0,
   "per": null,
   "forward_per": 28.722374,
   "pbr": 2.2353473,
-  "psr": 1.4242866,
+  "psr": 1.4243072,
   "roe": -0.03079,
   "roa": 0.02131,
   "profit_margin": -0.020539999,
@@ -25,5 +25,5 @@
   "beta": 0.556,
   "fifty_two_week_high": 3821.0,
   "fifty_two_week_low": 2135.0,
-  "_market_data_updated": "2026-09-22T13:01:12.879559+00:00"
+  "_market_data_updated": "2026-09-23T13:15:14.457947+00:00"
 }

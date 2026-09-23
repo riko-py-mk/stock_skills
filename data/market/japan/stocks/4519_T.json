@@ -5,11 +5,11 @@
   "industry": "Drug Manufacturers - General",
   "currency": "JPY",
   "price": 6746.0,
-  "market_cap": 11102317445120.0,
+  "market_cap": 11101064396800.0,
   "per": 23.529001,
   "forward_per": 28.59565,
   "pbr": 5.473894,
-  "psr": 8.26798,
+  "psr": 8.267046,
   "roe": 0.23493,
   "roa": 0.17055,
   "profit_margin": 0.35103,
@@ -25,5 +25,5 @@
   "beta": 0.546,
   "fifty_two_week_high": 10700.0,
   "fifty_two_week_low": 6250.0,
-  "_market_data_updated": "2026-09-22T13:01:05.701364+00:00"
+  "_market_data_updated": "2026-09-23T13:15:06.060719+00:00"
 }

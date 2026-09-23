@@ -5,11 +5,11 @@
   "industry": "Auto Manufacturers",
   "currency": "JPY",
   "price": 1689.0,
-  "market_cap": 6574568374272.0,
+  "market_cap": 6575304998912.0,
   "per": null,
   "forward_per": 7.403349,
   "pbr": 0.53191924,
-  "psr": 0.29197136,
+  "psr": 0.29200405,
   "roe": -0.0076200003,
   "roa": -0.00154,
   "profit_margin": -0.00754,
@@ -25,5 +25,5 @@
   "beta": 0.312,
   "fifty_two_week_high": 1762.5,
   "fifty_two_week_low": 1238.0,
-  "_market_data_updated": "2026-09-22T13:01:57.685096+00:00"
+  "_market_data_updated": "2026-09-23T13:16:06.802735+00:00"
 }

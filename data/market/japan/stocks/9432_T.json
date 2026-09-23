@@ -5,11 +5,11 @@
   "industry": "Telecom Services",
   "currency": "JPY",
   "price": 177.3,
-  "market_cap": 14397294510080.0,
+  "market_cap": 14366254563328.0,
   "per": 14.06027,
   "forward_per": 12.185567,
   "pbr": 1.4644421,
-  "psr": 0.97511005,
+  "psr": 0.9730078,
   "roe": 0.107130006,
   "roa": 0.03076,
   "profit_margin": 0.07126,
@@ -25,5 +25,5 @@
   "beta": -0.165,
   "fifty_two_week_high": 180.1,
   "fifty_two_week_low": 142.6,
-  "_market_data_updated": "2026-09-22T13:02:48.397931+00:00"
+  "_market_data_updated": "2026-09-23T13:17:01.346630+00:00"
 }

@@ -5,11 +5,11 @@
   "industry": "Specialty Chemicals",
   "currency": "JPY",
   "price": 1171.5,
-  "market_cap": 477775822848.0,
+  "market_cap": 478352703488.0,
   "per": 14.859209,
   "forward_per": 3.8390956,
   "pbr": 1.0691434,
-  "psr": 0.4706284,
+  "psr": 0.47119665,
   "roe": 0.096470006,
   "roa": 0.0367,
   "profit_margin": 0.03966,
@@ -25,5 +25,5 @@
   "beta": 0.32,
   "fifty_two_week_high": 1306.5,
   "fifty_two_week_low": 777.0,
-  "_market_data_updated": "2026-09-22T13:02:16.549788+00:00"
+  "_market_data_updated": "2026-09-23T13:16:24.418291+00:00"
 }
