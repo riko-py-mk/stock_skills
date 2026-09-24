@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Auto Parts",
   "currency": "JPY",
-  "price": 7218.0,
-  "market_cap": 1404984098816.0,
-  "per": 12.658273,
-  "forward_per": 14.88094,
-  "pbr": 1.6627704,
-  "psr": 1.8366165,
+  "price": 7417.0,
+  "market_cap": 1443719544832.0,
+  "per": 13.007261,
+  "forward_per": 15.291207,
+  "pbr": 1.7086129,
+  "psr": 1.8872521,
   "roe": 0.24791999,
   "roa": 0.07361,
   "profit_margin": 0.24330999,
@@ -25,5 +25,5 @@
   "beta": 0.253,
   "fifty_two_week_high": 11265.0,
   "fifty_two_week_low": 5567.0,
-  "_market_data_updated": "2026-09-23T13:15:22.188537+00:00"
+  "_market_data_updated": "2026-09-24T13:06:32.168422+00:00"
 }

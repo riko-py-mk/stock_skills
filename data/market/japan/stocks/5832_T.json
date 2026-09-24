@@ -15,7 +15,7 @@
   "profit_margin": 0.20126,
   "operating_margin": 0.22551,
   "dividend_yield": 0.0279,
-  "dividend_yield_trailing": 0.02478656,
+  "dividend_yield_trailing": 0.02464403,
   "payout_ratio": 0.404,
   "revenue_growth": 1.356,
   "earnings_growth": 0.413,
@@ -23,7 +23,7 @@
   "current_ratio": null,
   "free_cashflow": null,
   "beta": 0.191,
-  "fifty_two_week_high": 3687.0,
+  "fifty_two_week_high": 3708.0,
   "fifty_two_week_low": 2025.0,
-  "_market_data_updated": "2026-09-23T13:15:33.506397+00:00"
+  "_market_data_updated": "2026-09-24T13:06:43.368055+00:00"
 }
