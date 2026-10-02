@@ -4,12 +4,12 @@
   "sector": "Basic Materials",
   "industry": "Chemicals",
   "currency": "JPY",
-  "price": 580.1,
-  "market_cap": 958251139072.0,
-  "per": 15.623484,
-  "forward_per": 14.893453,
-  "pbr": 0.8686329,
-  "psr": 0.40252945,
+  "price": 574.8,
+  "market_cap": 949496250368.0,
+  "per": 15.464085,
+  "forward_per": 14.7573805,
+  "pbr": 0.8606968,
+  "psr": 0.3988518,
   "roe": 0.13168,
   "roa": 0.037550002,
   "profit_margin": 0.04463,
@@ -25,5 +25,5 @@
   "beta": 0.485,
   "fifty_two_week_high": 638.8,
   "fifty_two_week_low": 419.0,
-  "_market_data_updated": "2026-10-01T15:01:00.419895+00:00"
+  "_market_data_updated": "2026-10-02T14:23:30.230694+00:00"
 }
