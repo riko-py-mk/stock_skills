@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Marine Shipping",
   "currency": "JPY",
-  "price": 3264.0,
-  "market_cap": 1935855583232.0,
-  "per": 15.503729,
-  "forward_per": 9.340927,
-  "pbr": 1.1371654,
-  "psr": 1.8257828,
+  "price": 3241.0,
+  "market_cap": 1922214395904.0,
+  "per": 15.402529,
+  "forward_per": 9.275105,
+  "pbr": 1.1291523,
+  "psr": 1.8129172,
   "roe": 0.07565,
   "roa": 0.023459999,
   "profit_margin": 0.11924,
@@ -25,5 +25,5 @@
   "beta": null,
   "fifty_two_week_high": 3610.0,
   "fifty_two_week_low": 1995.0,
-  "_market_data_updated": "2026-10-02T14:25:39.355257+00:00"
+  "_market_data_updated": "2026-10-05T16:45:20.045008+00:00"
 }
