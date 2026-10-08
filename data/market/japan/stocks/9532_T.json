@@ -4,12 +4,12 @@
   "sector": "Utilities",
   "industry": "Utilities - Regulated Gas",
   "currency": "JPY",
-  "price": 5663.0,
-  "market_cap": 2137652723712.0,
-  "per": 14.610423,
-  "forward_per": 19.360683,
-  "pbr": 1.1781332,
-  "psr": 1.0492494,
+  "price": 5521.0,
+  "market_cap": 2084050960384.0,
+  "per": 14.244066,
+  "forward_per": 18.875214,
+  "pbr": 1.1485915,
+  "psr": 1.0229394,
   "roe": 0.07901,
   "roa": 0.029690001,
   "profit_margin": 0.068670005,
@@ -25,5 +25,5 @@
   "beta": -0.203,
   "fifty_two_week_high": 6828.0,
   "fifty_two_week_low": 4075.0,
-  "_market_data_updated": "2026-10-07T15:02:23.014188+00:00"
+  "_market_data_updated": "2026-10-08T15:10:38.328235+00:00"
 }
