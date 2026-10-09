@@ -4,12 +4,12 @@
   "sector": "Utilities",
   "industry": "Utilities - Diversified",
   "currency": "JPY",
-  "price": 83.0,
-  "market_cap": 974081097728.0,
-  "per": 18.735893,
+  "price": 84.0,
+  "market_cap": 985817022464.0,
+  "per": 18.961626,
   "forward_per": null,
-  "pbr": 1.3250333,
-  "psr": 30.81143,
+  "pbr": 1.3429081,
+  "psr": 31.182652,
   "roe": 0.10075,
   "roa": 0.03666,
   "profit_margin": 0.045489997,
@@ -25,5 +25,5 @@
   "beta": 0.278,
   "fifty_two_week_high": 103.0,
   "fifty_two_week_low": 65.0,
-  "_market_data_updated": "2026-10-08T15:07:59.892337+00:00"
+  "_market_data_updated": "2026-10-09T14:53:13.470841+00:00"
 }
