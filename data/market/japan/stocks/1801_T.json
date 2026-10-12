@@ -5,7 +5,7 @@
   "industry": "Engineering & Construction",
   "currency": "JPY",
   "price": 11750.0,
-  "market_cap": 1915371651072.0,
+  "market_cap": 1915357102080.0,
   "per": 11.757525,
   "forward_per": 24.684874,
   "pbr": 2.052442,
@@ -14,9 +14,9 @@
   "roa": null,
   "profit_margin": 0.078990005,
   "operating_margin": 0.08695,
-  "dividend_yield": 0.031400000000000004,
+  "dividend_yield": 0.0323,
   "dividend_yield_trailing": 0.026326964,
-  "payout_ratio": 0.3068,
+  "payout_ratio": 0.3102,
   "revenue_growth": 0.184,
   "earnings_growth": 0.093,
   "debt_to_equity": 45.852,
@@ -25,5 +25,5 @@
   "beta": 0.564,
   "fifty_two_week_high": 20680.0,
   "fifty_two_week_low": 10210.0,
-  "_market_data_updated": "2026-10-09T14:53:14.208547+00:00"
+  "_market_data_updated": "2026-10-12T17:14:57.727747+00:00"
 }

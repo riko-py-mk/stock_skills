@@ -5,18 +5,18 @@
   "industry": "Integrated Freight & Logistics",
   "currency": "JPY",
   "price": 1465.0,
-  "market_cap": 496105816064.0,
+  "market_cap": 494702592000.0,
   "per": 12.33892,
   "forward_per": 11.596612,
   "pbr": 1.314506,
-  "psr": 1.8009955,
+  "psr": 1.7959014,
   "roe": 0.11228,
   "roa": 0.01578,
   "profit_margin": 0.15348,
   "operating_margin": 0.05471,
   "dividend_yield": 0.0301,
   "dividend_yield_trailing": 0.026018487,
-  "payout_ratio": 0.2469,
+  "payout_ratio": 0.32009998,
   "revenue_growth": 0.029,
   "earnings_growth": -0.657,
   "debt_to_equity": 36.719,
@@ -25,5 +25,5 @@
   "beta": 0.346,
   "fifty_two_week_high": 1651.5,
   "fifty_two_week_low": 1066.5,
-  "_market_data_updated": "2026-10-09T14:56:00.626252+00:00"
+  "_market_data_updated": "2026-10-12T17:17:54.458511+00:00"
 }

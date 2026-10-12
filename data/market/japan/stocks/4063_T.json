@@ -5,11 +5,11 @@
   "industry": "Chemicals",
   "currency": "JPY",
   "price": 6085.0,
-  "market_cap": 11044668833792.0,
+  "market_cap": 11048734162944.0,
   "per": 24.099964,
   "forward_per": 18.454493,
   "pbr": 2.482396,
-  "psr": 4.2351727,
+  "psr": 4.2367315,
   "roe": 0.112320006,
   "roa": 0.07294,
   "profit_margin": 0.18361999,
@@ -25,5 +25,5 @@
   "beta": 1.077,
   "fifty_two_week_high": 7930.0,
   "fifty_two_week_low": 4366.0,
-  "_market_data_updated": "2026-10-09T14:53:43.580766+00:00"
+  "_market_data_updated": "2026-10-12T17:15:27.062891+00:00"
 }

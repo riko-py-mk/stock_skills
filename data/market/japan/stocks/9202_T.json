@@ -5,18 +5,18 @@
   "industry": "Airlines",
   "currency": "JPY",
   "price": 2915.5,
-  "market_cap": 1251891609600.0,
+  "market_cap": 1242376306688.0,
   "per": 9.319758,
   "forward_per": 5.986899,
   "pbr": 0.90965873,
-  "psr": 0.4700597,
+  "psr": 0.4664869,
   "roe": 0.13206,
   "roa": 0.03319,
   "profit_margin": 0.06215,
   "operating_margin": 0.03089,
   "dividend_yield": 0.0206,
   "dividend_yield_trailing": 0.022359822,
-  "payout_ratio": 0.2024,
+  "payout_ratio": 0.2078,
   "revenue_growth": 0.226,
   "earnings_growth": -0.19,
   "debt_to_equity": 84.724,
@@ -25,5 +25,5 @@
   "beta": 0.496,
   "fifty_two_week_high": 3419.0,
   "fifty_two_week_low": 2582.0,
-  "_market_data_updated": "2026-10-09T14:55:59.828171+00:00"
+  "_market_data_updated": "2026-10-12T17:17:53.735852+00:00"
 }

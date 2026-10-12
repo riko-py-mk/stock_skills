@@ -5,7 +5,7 @@
   "industry": "Auto Manufacturers",
   "currency": "JPY",
   "price": 2039.0,
-  "market_cap": 3933789749248.0,
+  "market_cap": 3933789487104.0,
   "per": 7.55353,
   "forward_per": 11.568794,
   "pbr": 1.1114703,
@@ -16,7 +16,7 @@
   "operating_margin": 0.09263,
   "dividend_yield": 0.0255,
   "dividend_yield_trailing": 0.022444498,
-  "payout_ratio": 0.2021,
+  "payout_ratio": 0.17040001,
   "revenue_growth": 0.22,
   "earnings_growth": 0.8,
   "debt_to_equity": 17.348,
@@ -25,5 +25,5 @@
   "beta": 0.451,
   "fifty_two_week_high": 2473.0,
   "fifty_two_week_low": 1670.0,
-  "_market_data_updated": "2026-10-09T14:55:03.496132+00:00"
+  "_market_data_updated": "2026-10-12T17:16:53.428698+00:00"
 }
