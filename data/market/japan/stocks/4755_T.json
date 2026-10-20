@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Internet Retail",
   "currency": "JPY",
-  "price": 639.7,
-  "market_cap": 1395816136704.0,
+  "price": 635.7,
+  "market_cap": 1387088183296.0,
   "per": null,
-  "forward_per": -84.06045,
-  "pbr": 1.5244455,
-  "psr": 0.5274089,
+  "forward_per": -83.53482,
+  "pbr": 1.5149133,
+  "psr": 0.52411103,
   "roe": 0.0034,
   "roa": 0.0032300001,
   "profit_margin": -0.024330001,
@@ -25,5 +25,5 @@
   "beta": 0.922,
   "fifty_two_week_high": 1068.5,
   "fifty_two_week_low": 606.6,
-  "_market_data_updated": "2026-10-19T15:12:52.057593+00:00"
+  "_market_data_updated": "2026-10-20T13:13:24.037286+00:00"
 }
