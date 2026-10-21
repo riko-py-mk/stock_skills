@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
   "currency": "JPY",
-  "price": 295.0,
-  "market_cap": 813191856128.0,
-  "per": 1.3843915,
+  "price": 291.0,
+  "market_cap": 802165555200.0,
+  "per": 1.3656201,
   "forward_per": null,
-  "pbr": 0.8620136,
-  "psr": 0.45203516,
+  "pbr": 0.8503253,
+  "psr": 0.4459059,
   "roe": 0.50815,
   "roa": 0.044310004,
   "profit_margin": 0.17916,
@@ -25,5 +25,5 @@
   "beta": 0.429,
   "fifty_two_week_high": 562.0,
   "fifty_two_week_low": 257.0,
-  "_market_data_updated": "2026-10-20T13:13:36.553195+00:00"
+  "_market_data_updated": "2026-10-21T13:22:45.454018+00:00"
 }

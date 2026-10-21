@@ -4,12 +4,12 @@
   "sector": "Technology",
   "industry": "Computer Hardware",
   "currency": "JPY",
-  "price": 4807.0,
-  "market_cap": 4012449464320.0,
-  "per": 12.153006,
-  "forward_per": 13.261056,
-  "pbr": 1.171915,
-  "psr": 0.8535851,
+  "price": 4816.0,
+  "market_cap": 4019961987072.0,
+  "per": 12.175759,
+  "forward_per": 13.285884,
+  "pbr": 1.1741092,
+  "psr": 0.8551833,
   "roe": 0.10371,
   "roa": 0.04876,
   "profit_margin": 0.07389,
@@ -25,5 +25,5 @@
   "beta": 0.276,
   "fifty_two_week_high": 5033.0,
   "fifty_two_week_low": 3987.0,
-  "_market_data_updated": "2026-10-20T13:14:29.099278+00:00"
+  "_market_data_updated": "2026-10-21T13:23:48.124259+00:00"
 }

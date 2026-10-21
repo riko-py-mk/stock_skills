@@ -4,12 +4,12 @@
   "sector": "Technology",
   "industry": "Consumer Electronics",
   "currency": "JPY",
-  "price": 3960.0,
-  "market_cap": 23120226287616.0,
-  "per": 21.258322,
-  "forward_per": 21.61572,
-  "pbr": 2.7786157,
-  "psr": 1.8210961,
+  "price": 4012.0,
+  "market_cap": 23423824691200.0,
+  "per": 21.53747,
+  "forward_per": 21.899563,
+  "pbr": 2.8151026,
+  "psr": 1.8450093,
   "roe": 0.13159999,
   "roa": 0.042529996,
   "profit_margin": -0.01746,
@@ -25,5 +25,5 @@
   "beta": 0.814,
   "fifty_two_week_high": 4776.0,
   "fifty_two_week_low": 3043.0,
-  "_market_data_updated": "2026-10-20T13:14:04.434698+00:00"
+  "_market_data_updated": "2026-10-21T13:23:17.531859+00:00"
 }
