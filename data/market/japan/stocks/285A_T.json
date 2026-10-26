@@ -4,12 +4,12 @@
   "sector": "Technology",
   "industry": "Semiconductors",
   "currency": "JPY",
-  "price": 12755.0,
-  "market_cap": 6793761652736.0,
-  "per": 15.302939,
+  "price": 12550.0,
+  "market_cap": 20053714010112.0,
+  "per": 15.056989,
   "forward_per": null,
-  "pbr": 8.721707,
-  "psr": 1.8059169,
+  "pbr": 8.581532,
+  "psr": 5.3306756,
   "roe": 0.87108004,
   "roa": 0.34332,
   "profit_margin": 0.3664,
@@ -24,6 +24,6 @@
   "free_cashflow": 857617006592.0,
   "beta": null,
   "fifty_two_week_high": 37566.668,
-  "fifty_two_week_low": 2626.6667,
-  "_market_data_updated": "2026-10-23T13:00:49.707421+00:00"
+  "fifty_two_week_low": 2784.3333,
+  "_market_data_updated": "2026-10-26T14:46:13.746533+00:00"
 }
