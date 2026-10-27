@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Consulting Services",
   "currency": "JPY",
-  "price": 11500.0,
-  "market_cap": 1690316308480.0,
-  "per": 40.74547,
-  "forward_per": 45.955883,
-  "pbr": 16.52249,
-  "psr": 9.782886,
+  "price": 11625.0,
+  "market_cap": 1708689326080.0,
+  "per": 41.18835,
+  "forward_per": 46.455402,
+  "pbr": 16.702082,
+  "psr": 9.889222,
   "roe": 0.41602,
   "roa": 0.26607,
   "profit_margin": 0.24783,
@@ -23,7 +23,7 @@
   "current_ratio": 3.136,
   "free_cashflow": 31566249984.0,
   "beta": 0.857,
-  "fifty_two_week_high": 11890.0,
+  "fifty_two_week_high": 11895.0,
   "fifty_two_week_low": 3780.0,
-  "_market_data_updated": "2026-10-26T14:47:29.074943+00:00"
+  "_market_data_updated": "2026-10-27T13:53:19.545439+00:00"
 }
