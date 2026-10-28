@@ -4,12 +4,12 @@
   "sector": "Technology",
   "industry": "Information Technology Services",
   "currency": "JPY",
-  "price": 5381.0,
-  "market_cap": 7137057570816.0,
-  "per": 23.817112,
-  "forward_per": 7.4844217,
-  "pbr": 3.1946397,
-  "psr": 1.935815,
+  "price": 5292.0,
+  "market_cap": 7019012554752.0,
+  "per": 23.423185,
+  "forward_per": 7.360632,
+  "pbr": 3.1418014,
+  "psr": 1.9037971,
   "roe": 0.1416,
   "roa": 0.05716,
   "profit_margin": 0.08154,
@@ -25,5 +25,5 @@
   "beta": 0.371,
   "fifty_two_week_high": 6194.0,
   "fifty_two_week_low": 3606.0,
-  "_market_data_updated": "2026-10-27T13:53:22.526700+00:00"
+  "_market_data_updated": "2026-10-28T14:47:38.434490+00:00"
 }
