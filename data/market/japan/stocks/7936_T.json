@@ -4,12 +4,12 @@
   "sector": "Consumer Cyclical",
   "industry": "Footwear & Accessories",
   "currency": "JPY",
-  "price": 4527.0,
-  "market_cap": 3190307946496.0,
-  "per": 25.310299,
-  "forward_per": 44.795174,
-  "pbr": 8.942258,
-  "psr": 3.3845794,
+  "price": 4613.0,
+  "market_cap": 3250914590720.0,
+  "per": 25.79112,
+  "forward_per": 45.646152,
+  "pbr": 9.112135,
+  "psr": 3.4488766,
   "roe": 0.42215002,
   "roa": 0.18649,
   "profit_margin": 0.13503,
@@ -25,5 +25,5 @@
   "beta": 1.046,
   "fifty_two_week_high": 5440.0,
   "fifty_two_week_low": 3505.0,
-  "_market_data_updated": "2026-10-28T14:48:08.825726+00:00"
+  "_market_data_updated": "2026-10-29T14:54:58.297260+00:00"
 }
