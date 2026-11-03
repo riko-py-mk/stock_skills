@@ -14,7 +14,7 @@
   "roa": 0.01227,
   "profit_margin": 0.44891998,
   "operating_margin": 0.59768003,
-  "dividend_yield": 0.028399999999999998,
+  "dividend_yield": 0.0291,
   "dividend_yield_trailing": 0.021314388,
   "payout_ratio": 0.2466,
   "revenue_growth": 0.399,
@@ -25,5 +25,5 @@
   "beta": 0.679,
   "fifty_two_week_high": 3045.0,
   "fifty_two_week_low": 1497.0,
-  "_market_data_updated": "2026-11-02T17:43:25.097525+00:00"
+  "_market_data_updated": "2026-11-03T15:45:32.026622+00:00"
 }

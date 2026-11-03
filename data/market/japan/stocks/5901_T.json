@@ -5,11 +5,11 @@
   "industry": "Packaging & Containers",
   "currency": "JPY",
   "price": 4485.0,
-  "market_cap": 673166524416.0,
+  "market_cap": 668794093568.0,
   "per": 12.8616905,
   "forward_per": -42.91866,
   "pbr": 0.9515087,
-  "psr": 0.67948437,
+  "psr": 0.6750709,
   "roe": 0.078439996,
   "roa": 0.02922,
   "profit_margin": 0.0543,
@@ -25,5 +25,5 @@
   "beta": -0.112,
   "fifty_two_week_high": 4661.0,
   "fifty_two_week_low": 3116.0,
-  "_market_data_updated": "2026-11-02T17:42:24.121667+00:00"
+  "_market_data_updated": "2026-11-03T15:44:29.618623+00:00"
 }
