@@ -4,17 +4,17 @@
   "sector": "Technology",
   "industry": "Electronic Components",
   "currency": "JPY",
-  "price": 2799.5,
-  "market_cap": 527997960192.0,
+  "price": 2775.0,
+  "market_cap": 523377180672.0,
   "per": null,
   "forward_per": null,
-  "pbr": 0.7036285,
+  "pbr": 0.69747066,
   "psr": null,
   "roe": null,
   "roa": null,
   "profit_margin": 0.0,
   "operating_margin": 0.0,
-  "dividend_yield": 0.0248,
+  "dividend_yield": 0.025,
   "dividend_yield_trailing": 0.0,
   "payout_ratio": null,
   "revenue_growth": null,
@@ -25,5 +25,5 @@
   "beta": null,
   "fifty_two_week_high": 3067.0,
   "fifty_two_week_low": 2588.5,
-  "_market_data_updated": "2026-11-16T17:48:57.239077+00:00"
+  "_market_data_updated": "2026-11-17T17:18:50.312064+00:00"
 }
