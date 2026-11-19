@@ -4,12 +4,12 @@
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
   "currency": "JPY",
-  "price": 2300.0,
-  "market_cap": 2440078819328.0,
-  "per": 12.829809,
-  "forward_per": 3.976762,
-  "pbr": 3.379138,
-  "psr": 1.427724,
+  "price": 2313.0,
+  "market_cap": 2453870477312.0,
+  "per": 12.902326,
+  "forward_per": 3.9992394,
+  "pbr": 3.3982375,
+  "psr": 1.4357936,
   "roe": 0.29496,
   "roa": 0.045939997,
   "profit_margin": 0.11121,
@@ -25,5 +25,5 @@
   "beta": 0.961,
   "fifty_two_week_high": 4698.0,
   "fifty_two_week_low": 2116.0,
-  "_market_data_updated": "2026-11-18T16:54:22.392476+00:00"
+  "_market_data_updated": "2026-11-19T17:01:10.207340+00:00"
 }
