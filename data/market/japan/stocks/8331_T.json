@@ -9,12 +9,12 @@
   "per": 14.976762,
   "forward_per": 20.735909,
   "pbr": 1.221738,
-  "psr": 4.143371,
+  "psr": 4.0873775,
   "roe": 0.08489,
   "roa": 0.00511,
-  "profit_margin": 0.28219998,
-  "operating_margin": 0.41124,
-  "dividend_yield": 0.024700000000000003,
+  "profit_margin": 0.27838,
+  "operating_margin": 0.39908,
+  "dividend_yield": 0.0262,
   "dividend_yield_trailing": 0.024665982,
   "payout_ratio": 0.39279997,
   "revenue_growth": 0.121,
@@ -24,6 +24,6 @@
   "free_cashflow": null,
   "beta": 0.137,
   "fifty_two_week_high": 2896.0,
-  "fifty_two_week_low": 1530.0,
-  "_market_data_updated": "2026-11-20T16:37:55.417587+00:00"
+  "fifty_two_week_low": 1560.5,
+  "_market_data_updated": "2026-11-23T19:46:08.063613+00:00"
 }
