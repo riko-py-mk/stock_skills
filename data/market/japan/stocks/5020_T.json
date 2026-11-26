@@ -4,12 +4,12 @@
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
   "currency": "JPY",
-  "price": 1144.0,
-  "market_cap": 2987227086848.0,
-  "per": 4.3610854,
-  "forward_per": 11.500955,
-  "pbr": 0.7989781,
-  "psr": 0.23253958,
+  "price": 1158.5,
+  "market_cap": 3025089855488.0,
+  "per": 4.416362,
+  "forward_per": 11.646728,
+  "pbr": 0.80910504,
+  "psr": 0.235487,
   "roe": 0.19625,
   "roa": 0.057979997,
   "profit_margin": 0.05495,
@@ -25,5 +25,5 @@
   "beta": 0.3,
   "fifty_two_week_high": 1552.5,
   "fifty_two_week_low": 1016.5,
-  "_market_data_updated": "2026-11-25T18:22:01.547048+00:00"
+  "_market_data_updated": "2026-11-26T18:02:36.304924+00:00"
 }
